@@ -45,7 +45,6 @@ int main(int argc, const char* argv[]) {
     return App(settings).run();
 }
 
-
 App::App(const GApp::Settings& settings) : GApp(settings) {
 }
 
@@ -56,6 +55,12 @@ App::App(const GApp::Settings& settings) : GApp(settings) {
 void App::onInit() {
     GApp::onInit();
     setFrameDuration(1.0f / 60.0f);
+
+	debugPrintf("Target frame rate = %f Hz\n", realTimeTargetDuration());
+
+	//Move a nonexistant sphere entity
+	//const shared_ptr<Entity>& sphere = scene()->entity("Sphere");
+	//sphere->setFrame(Point3(0.0f, 1.5f, 0.0f));
 
     // Call setScene(shared_ptr<Scene>()) or setScene(MyScene::create()) to replace
     // the default scene here.
@@ -68,10 +73,29 @@ void App::onInit() {
     // developerWindow->videoRecordDialog->setCaptureGui(false);
 
     loadScene(
+		"White Cube"
         //"G3D Sponza"
-        "G3D Cornell Box" // Load something simple
+        //"G3D Cornell Box" // Load something simple
         //developerWindow->sceneEditorWindow->selectedSceneName()  // Load the first scene encountered 
         );
+
+	Any staircase;
+
+	Array<Any> testArray;
+
+	String test[6][2] = { "hello", "a" };
+
+	staircase.load("whiteCube.Scene.Any");
+
+	//staircase.getArray(testArray);
+	
+	if (staircase["name"].string() == "White Cube") {
+		staircase["entities"]["density"] = 3;
+	}
+
+	//staircase.append(test);
+
+	staircase.save("staircase.Scene.AnyX");
 }
 
 

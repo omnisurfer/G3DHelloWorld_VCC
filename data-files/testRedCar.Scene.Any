@@ -1,6 +1,6 @@
 /* -*- c++ -*- */
 { 
-    name = "Test Scene"; 
+    name = "Test Scene Red Car";
 
     entities = { 
         ground = VisibleEntity {
@@ -45,7 +45,7 @@
             preprocess = {
                 setMaterial("car-groupc-2-grey_Cube.904_carmaterial_silver/carmaterial_silver", 
                     UniversalMaterial::Specification {
-                        lambertian = Color3(0.95, 0.35, 0.02);
+                        lambertian = Color3(0.95, 0.05, 0.02);
                         glossy = Color4(Color3(0.04), 0.9);
                     });
             };

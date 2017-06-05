@@ -1,0 +1,47 @@
+/* -*- c++ -*- */
+{ 
+    name = "White Cube";
+
+	entities = {
+		camera = Camera{
+			frame = CFrame::fromXYZYPRDegrees(0,0,5);
+		};
+
+		skybox = Skybox{
+			texture = "cubemap/whiteroom/whiteroom-*.png";
+		};
+
+		cube0 = VisibleEntity{
+			model = "cubeModel";
+			frame = CFrame::fromXYZYPRDegrees(0, 0, 0, 45, 45, 0);
+		};
+
+		sun = Light{
+			attenuation = (0, 0, 1);
+			bulbPower = Power3(4e+006);
+			frame = CFrame::fromXYZYPRDegrees(-15, 207, -41, -165, -77, 77);
+			shadowMapSize = Vector2int16(2048, 2048);
+			spotHalfAngleDegrees = 5;
+			spotSquare = true;
+			type = "SPOT";
+		};
+	};
+
+	models = {
+		cubeModel = ArticulatedModel::Specification{
+			filename = "model/cube/cube.obj";
+			//scale = 2.0;
+			preprocess = {
+				setMaterial(all(), Color3(1, 1, 1));
+				transformGeometry(root(), Matrix4::scale(0, 1, 2));
+				/*
+				setMaterial(all(),
+					UniversalMaterial::Specification{
+						lambertian = Color3(0.95, 0.35, 0.02);
+						glossy = Color4(Color3(0.04), 0.9);
+					});		
+				*/
+			};
+		};
+	};
+ } 

@@ -73,6 +73,12 @@ artifacts/
 *.svclog
 *.scc
 
+*.xsd.cs
+*.vcxproj
+main.vcxproj.filters
+main.vcxproj
+*.filters
+
 # Chutzpah Test files
 _Chutzpah*
 
@@ -287,3 +293,7 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+*.vcxproj
+main.vcxproj.filters
+main.vcxproj
+*.filters
