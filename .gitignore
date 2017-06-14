@@ -297,3 +297,4 @@ __pycache__/
 main.vcxproj.filters
 main.vcxproj
 *.filters
+*.sln
