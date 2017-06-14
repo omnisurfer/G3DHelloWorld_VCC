@@ -1,0 +1,45 @@
+
+/* -*- c++ -*- */
+{ 
+    entities = { 
+        camera = Camera { 
+            frame = CFrame::fromXYZYPRDegrees(0, 0, 5 ); 
+        }; 
+        
+        cube0 = VisibleEntity { 
+            frame = CFrame::fromXYZYPRDegrees(0, 0, 0, 45, 45, 0 ); 
+            model = "cubeModel"; 
+        }; 
+        
+        density = 3; 
+        skybox = Skybox { 
+            texture = "cubemap/whiteroom/whiteroom-*.png"; 
+        }; 
+        
+        sun = Light { 
+            attenuation = ( 0, 0, 1 ); 
+            bulbPower = Power3(4e+06 ); 
+            frame = CFrame::fromXYZYPRDegrees(-15, 207, -41, -165, -77, 77 ); 
+            shadowMapSize = Vector2int16(2048, 2048 ); 
+            spotHalfAngleDegrees = 5; 
+            spotSquare = true; 
+            type = "SPOT"; 
+        }; 
+        
+    }; 
+    
+    models = { 
+        cubeModel = ArticulatedModel::Specification { 
+            filename = "model/cube/cube.obj"; 
+            preprocess = 
+            /* scale = 2.0; */
+            { 
+                setMaterial(all(), Color3(1, 1, 1 ) ); 
+                transformGeometry(root(), Matrix4::scale(0, 1, 2 ) ) }; 
+            
+        }; 
+        
+    }; 
+    
+    name = "White Cube"; 
+} 

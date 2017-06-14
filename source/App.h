@@ -7,9 +7,15 @@
 #pragma once
 #include <G3D/G3DAll.h>
 
+class DemoScene;
+
 /** \brief Application framework. */
 class App : public GApp {
 protected:
+
+	shared_ptr<DemoScene>   m_scene;
+
+	shared_ptr<Sound>       m_backgroundMusic;
 
     /** Called from onInit */
     void makeGUI();

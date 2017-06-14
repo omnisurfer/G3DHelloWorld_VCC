@@ -1,5 +1,7 @@
 /** \file App.cpp */
 #include "App.h"
+#include "DemoScene.h"
+#include "PlayerEntity.h"
 
 // Tells C++ to invoke command-line main() function even on OS X and Win32.
 G3D_START_AT_MAIN();
@@ -7,7 +9,7 @@ G3D_START_AT_MAIN();
 int main(int argc, const char* argv[]) {
     {
         G3DSpecification g3dSpec;
-        g3dSpec.audio = false;
+        g3dSpec.audio = true;
         initGLG3D(g3dSpec);
     }
 
@@ -54,8 +56,7 @@ App::App(const GApp::Settings& settings) : GApp(settings) {
 // automatically caught.
 void App::onInit() {
     GApp::onInit();
-    setFrameDuration(1.0f / 60.0f);
-
+    
 	debugPrintf("Target frame rate = %f Hz\n", realTimeTargetDuration());
 
 	//Move a nonexistant sphere entity
@@ -66,18 +67,46 @@ void App::onInit() {
     // the default scene here.
     
     showRenderingStats      = false;
+	
+	try {
+		const String musicFile = System::findDataFile("music/cdk_-_above_All_(Original_RumbleStep_Mix).mp3", true);
+		m_backgroundMusic = Sound::create(musicFile, true);
+		m_backgroundMusic->play();
+	}
+	catch (...) {
+		msgBox("This sample requires the 'game' asset pack to be installed in order to play the sound files", "Assets Missing");
+	}
+
+	setFrameDuration(1.0f / 60.0f);
+
+	m_scene = DemoScene::create(m_ambientOcclusion);
+
+	// Allowing custom Entity subclasses to be parsed from .Scene.Any files
+	m_scene->registerEntitySubclass("PlayerEntity", &PlayerEntity::create);
+
+	setScene(m_scene);
 
     makeGUI();
     // For higher-quality screenshots:
     // developerWindow->videoRecordDialog->setScreenShotFormat("PNG");
     // developerWindow->videoRecordDialog->setCaptureGui(false);
 
+	loadScene(System::findDataFile("space.Scene.Any"));
+
+	/*
     loadScene(
 		"White Cube"
         //"G3D Sponza"
         //"G3D Cornell Box" // Load something simple
         //developerWindow->sceneEditorWindow->selectedSceneName()  // Load the first scene encountered 
         );
+	*/
+
+	// Enforce correct simulation order by placing constraints on objects
+	m_scene->setOrder("player", "camera");
+	//generate entities within the program. See g3d/G3D10/samples/entity/source
+	m_scene->spawnAsteroids();
+	setActiveCamera(m_scene->typedEntity<Camera>("camera"));
 
 	Any staircase;
 
