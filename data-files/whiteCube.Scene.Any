@@ -25,6 +25,10 @@
 			spotSquare = true;
 			type = "SPOT";
 		};
+
+		player = PlayerEntity{
+			model = "cubeModel";
+		};
 	};
 
 	models = {
@@ -43,5 +47,12 @@
 				*/
 			};
 		};
+
+		asteroid0Model = #include("model/rock/rock_01.ArticulatedModel.Any");
+		asteroid1Model = #include("model/rock/rock_02.ArticulatedModel.Any");
+		asteroid2Model = #include("model/rock/rock_03.ArticulatedModel.Any");
+		asteroid3Model = #include("model/rock/rock_04.ArticulatedModel.Any");
+		asteroid4Model = #include("model/rock/rock_05.ArticulatedModel.Any");
+
 	};
  } 

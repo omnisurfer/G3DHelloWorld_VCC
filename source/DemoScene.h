@@ -6,13 +6,15 @@
 class DemoScene : public Scene {
 protected:
 
-    DemoScene(const shared_ptr<AmbientOcclusion>& ao) : Scene(ao) {}
+    DemoScene(const shared_ptr<AmbientOcclusion>& ao) : Scene(ao) {}	
 
 public:
 
     static shared_ptr<DemoScene> create(const shared_ptr<AmbientOcclusion>& ao);
     
     void spawnAsteroids();
+	void spawnCubes();
+	shared_ptr<Model> createTorusModel();
 };
 
 #endif

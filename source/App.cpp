@@ -68,14 +68,16 @@ void App::onInit() {
     
     showRenderingStats      = false;
 	
+	/*
 	try {
 		const String musicFile = System::findDataFile("music/cdk_-_above_All_(Original_RumbleStep_Mix).mp3", true);
 		m_backgroundMusic = Sound::create(musicFile, true);
-		m_backgroundMusic->play();
+		m_backgroundMusic->play();	
 	}
 	catch (...) {
 		msgBox("This sample requires the 'game' asset pack to be installed in order to play the sound files", "Assets Missing");
 	}
+	*/
 
 	setFrameDuration(1.0f / 60.0f);
 
@@ -91,7 +93,8 @@ void App::onInit() {
     // developerWindow->videoRecordDialog->setScreenShotFormat("PNG");
     // developerWindow->videoRecordDialog->setCaptureGui(false);
 
-	loadScene(System::findDataFile("space.Scene.Any"));
+	//loadScene(System::findDataFile("space.Scene.Any"));
+	loadScene(System::findDataFile("whiteCube.Scene.Any"));
 
 	/*
     loadScene(
@@ -105,9 +108,13 @@ void App::onInit() {
 	// Enforce correct simulation order by placing constraints on objects
 	m_scene->setOrder("player", "camera");
 	//generate entities within the program. See g3d/G3D10/samples/entity/source
-	m_scene->spawnAsteroids();
+	//m_scene->spawnAsteroids();
+	//m_scene->spawnCubes();
+	addTorusToScene();
+
 	setActiveCamera(m_scene->typedEntity<Camera>("camera"));
 
+	/*
 	Any staircase;
 
 	Array<Any> testArray;
@@ -125,6 +132,7 @@ void App::onInit() {
 	//staircase.append(test);
 
 	staircase.save("staircase.Scene.AnyX");
+	*/
 }
 
 
@@ -135,13 +143,13 @@ void App::makeGUI() {
     debugWindow->setVisible(true);
     developerWindow->videoRecordDialog->setEnabled(true);
 
-    GuiPane* infoPane = debugPane->addPane("Info", GuiTheme::ORNATE_PANE_STYLE);
+    //GuiPane* infoPane = debugPane->addPane("Info", GuiTheme::ORNATE_PANE_STYLE);
     
     // Example of how to add debugging controls
-    infoPane->addLabel("You can add GUI controls");
-    infoPane->addLabel("in App::onInit().");
-    infoPane->addButton("Exit", [this]() { m_endProgram = true; });
-    infoPane->pack();
+    //infoPane->addLabel("You can add GUI controls");
+    //infoPane->addLabel("in App::onInit().");
+    //infoPane->addButton("Exit", [this]() { m_endProgram = true; });
+    //infoPane->pack();
 
     // More examples of debugging GUI controls:
     // debugPane->addCheckBox("Use explicit checking", &explicitCheck);
@@ -282,4 +290,45 @@ void App::onGraphics2D(RenderDevice* rd, Array<shared_ptr<Surface2D> >& posed2D)
 void App::onCleanup() {
     // Called after the application loop ends.  Place a majority of cleanup code
     // here instead of in the constructor so that exceptions can be caught.
+}
+
+void App::addTorusToScene() {
+	// Replace any existing torus model. Models don't 
+	// have to be added to the model table to use them 
+	// with a VisibleEntity.
+	
+	const shared_ptr<Model>& torusModel = m_scene->createTorusModel();
+	if (scene()->modelTable().containsKey(torusModel->name())) {
+		scene()->removeModel(torusModel->name());
+	}
+	scene()->insert(torusModel);
+
+	// Replace any existing torus entity that has the wrong type
+	shared_ptr<Entity> torus = scene()->entity("torus");
+	if (notNull(torus) && isNull(dynamic_pointer_cast<VisibleEntity>(torus))) {
+		logPrintf("The scene contained an Entity named 'torus' that was not a VisibleEntity\n");
+		scene()->remove(torus);
+		torus.reset();
+	}
+
+	if (isNull(torus)) {
+		// There is no torus entity in this scene, so make one.
+		//
+		// We could either explicitly instantiate a VisibleEntity or simply
+		// allow the Scene parser to construct one. The second approach
+		// has more consise syntax for this case, since we are using all constant
+		// values in the specification.
+		torus = scene()->createEntity("torus",
+			PARSE_ANY(
+				VisibleEntity{
+			model = "torusModel";
+		};
+		));
+	}
+	else {
+		// Change the model on the existing torus entity
+		dynamic_pointer_cast<VisibleEntity>(torus)->setModel(torusModel);
+	}
+
+	torus->setFrame(CFrame::fromXYZYPRDegrees(0.0f, 1.8f, 0.0f, 45.0f, 45.0f));
 }
