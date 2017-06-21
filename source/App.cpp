@@ -330,5 +330,5 @@ void App::addTorusToScene() {
 		dynamic_pointer_cast<VisibleEntity>(torus)->setModel(torusModel);
 	}
 
-	torus->setFrame(CFrame::fromXYZYPRDegrees(0.0f, 1.8f, 0.0f, 45.0f, 45.0f));
+	torus->setFrame(CFrame::fromXYZYPRDegrees(0.0f, 0.0f, 0.0f, 0.0f, 90.0f));
 }

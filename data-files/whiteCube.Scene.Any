@@ -11,10 +11,12 @@
 			texture = "cubemap/whiteroom/whiteroom-*.png";
 		};
 
+		/*
 		cube0 = VisibleEntity{
 			model = "cubeModel";
 			frame = CFrame::fromXYZYPRDegrees(0, 0, 0, 45, 45, 0);
 		};
+		*/
 
 		sun = Light{
 			attenuation = (0, 0, 1);
@@ -27,7 +29,7 @@
 		};
 
 		player = PlayerEntity{
-			model = "cubeModel";
+			//model = "cubeModel";
 		};
 	};
 

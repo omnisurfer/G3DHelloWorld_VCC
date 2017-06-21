@@ -3,34 +3,34 @@
 #include "G3D/Random.h"
 
 shared_ptr<DemoScene> DemoScene::create(const shared_ptr<AmbientOcclusion>& ao) {
-    return shared_ptr<DemoScene>(new DemoScene(ao));
+	return shared_ptr<DemoScene>(new DemoScene(ao));
 }
 
 
 void DemoScene::spawnAsteroids() {
 
-    // An example of how to spawn Entitys at runtime
+	// An example of how to spawn Entitys at runtime
 
-    Random r(1023, false);
-    for (int i = 0; i < 10; ++i) {
-        //const String& modelName = format("asteroid%dModel", r.integer(0, 4));
+	Random r(1023, false);
+	for (int i = 0; i < 10; ++i) {
+		//const String& modelName = format("asteroid%dModel", r.integer(0, 4));
 		const String& modelName = "cubeModel";
 
 		// Find a random position that is not too close to the space ship
-        Point3 pos;
-        while (pos.length() < 15) {
-            for (int a = 0; a < 3; ++a) {
-                pos[a] = r.uniform(-50.0f, 50.0f);
-            }
-        }
+		Point3 pos;
+		while (pos.length() < 15) {
+			for (int a = 0; a < 3; ++a) {
+				pos[a] = r.uniform(-50.0f, 50.0f);
+			}
+		}
 
 		/*
-        const shared_ptr<VisibleEntity>& v = 
-            VisibleEntity::create
-            (format("asteroid%02d", i), 
-             this,
-             m_modelTable[modelName].resolve(),
-             CFrame::fromXYZYPRDegrees(pos.x, pos.y, pos.z, r.uniform(0, 360), r.uniform(0, 360), r.uniform(0, 360)));
+		const shared_ptr<VisibleEntity>& v =
+			VisibleEntity::create
+			(format("asteroid%02d", i),
+			 this,
+			 m_modelTable[modelName].resolve(),
+			 CFrame::fromXYZYPRDegrees(pos.x, pos.y, pos.z, r.uniform(0, 360), r.uniform(0, 360), r.uniform(0, 360)));
 		*/
 		const shared_ptr<VisibleEntity>& v =
 			VisibleEntity::create
@@ -38,12 +38,12 @@ void DemoScene::spawnAsteroids() {
 				this,
 				m_modelTable[modelName].resolve(),
 				CFrame::fromXYZYPRDegrees(pos.x, pos.y, pos.z, r.uniform(0, 360), r.uniform(0, 360), r.uniform(0, 360)));
-				
-        // Don't serialize generated objects
-        v->setShouldBeSaved(false);
 
-        insert(v);
-    }
+		// Don't serialize generated objects
+		v->setShouldBeSaved(false);
+
+		insert(v);
+	}
 }
 
 void DemoScene::spawnCubes()
@@ -54,13 +54,14 @@ void DemoScene::spawnCubes()
 	ArticulatedModel::Part* part = model->addPart("root");
 	ArticulatedModel::Geometry* geometry = model->addGeometry("geom");
 	ArticulatedModel::Mesh*	mesh = model->addMesh("mesh", part, geometry);
-	
+
 	mesh->material = UniversalMaterial::create(
 		PARSE_ANY(
-			UniversalMaterial::Specification {
+			UniversalMaterial::Specification{
 				lambertian = Texture::Specification { filename = "image/checker-32x32-1024x1024.png"; encoding = Color3(1.0,0.7,0.15); };
-				glossy = Color4(Color3(0.1), 0.2);
-			}
+	//lambertian = Texture::Specification{encoding = Color3(1.0,0.7,0.15); };
+	glossy = Color4(Color3(0.1), 0.2);
+	}
 		)
 	);
 
@@ -87,7 +88,7 @@ void DemoScene::spawnCubes()
 		(format("cubeX%02d", 1),
 			this,
 			m_modelTable["cubeModel"].resolve(),
-			CFrame::fromXYZYPRDegrees(pos.x, pos.y, pos.z, r.uniform(0, 360), r.uniform(0, 360), r.uniform(0, 360)));
+			CFrame::fromXYZYPRDegrees(pos.x, pos.y, pos.z, 0, 0, 0));
 
 	// Don't serialize generated objects
 	visibleEntity->setShouldBeSaved(false);
@@ -105,7 +106,7 @@ shared_ptr<Model> DemoScene::createTorusModel() {
 	ArticulatedModel::Geometry* geometry = model->addGeometry("geom");
 	ArticulatedModel::Mesh*     mesh = model->addMesh("mesh", part, geometry);
 
-	// Assign a material
+	// Assign a material	
 	mesh->material = UniversalMaterial::create(
 		PARSE_ANY(
 			UniversalMaterial::Specification{
@@ -116,7 +117,7 @@ shared_ptr<Model> DemoScene::createTorusModel() {
 	};
 
 	glossy = Color4(Color3(0.01), 0.2);
-	}));
+	}));	
 
 	// Create the vertices and faces in the following unwrapped pattern:
 	//     ___________
@@ -127,10 +128,12 @@ shared_ptr<Model> DemoScene::createTorusModel() {
 	// p    
 	//    t ->
 
-	const int   smallFaces = 20;
+	//p = number of small faces that form the skin of the circle swept about the axis perpendicular to the hole.	
+	const int   smallFaces = 3;//20;	
 	const float smallRadius = 0.5f * units::meters();
-
-	const int   largeFaces = 50;
+	
+	//t = number of large faces that form the circumference of the toroid from the center "hole"
+	const int   largeFaces = 10;
 	const float largeRadius = 2.0f * units::meters();
 
 	Array<CPUVertexArray::Vertex>& vertexArray = geometry->cpuVertexArray.vertex;
@@ -138,31 +141,36 @@ shared_ptr<Model> DemoScene::createTorusModel() {
 
 	for (int t = 0; t <= largeFaces; ++t) {
 
+		//map number of faces to a rotation around a cirlce given the large radius of the torus. This is where the small ring will be rendered (its frame)
 		const float   thetaDegrees = 360.0f * t / float(largeFaces);
 		const CFrame& smallRingFrame = (Matrix4::yawDegrees(thetaDegrees) * Matrix4::translation(largeRadius, 0.0f, 0.0f)).approxCoordinateFrame();
 
 		for (int p = 0; p <= smallFaces; ++p) {
+			//map number of faces to a rotation around the center of the circle that will be swept to create the torus.
 			const float phi = 2.0f * pif() * p / float(smallFaces);
 
 			CPUVertexArray::Vertex& v = vertexArray.next();
+			//vertex position offset relative to a point in world space defined by camera???
 			v.position = smallRingFrame.pointToWorldSpace(Point3(cos(phi), sin(phi), 0.0f) * smallRadius);
 
+			//texture coordinate on the face of the vertex? not sure what 4.0f is about
 			v.texCoord0 = Point2(4.0f * t / float(largeFaces), p / float(smallFaces));
 
 			// Set to NaN to trigger automatic vertex normal and tangent computation
 			v.normal = Vector3::nan();
 			v.tangent = Vector4::nan();
-
+			
 			if ((t < largeFaces) && (p < smallFaces)) {
 				// Create the corresponding face out of two triangles.
 				// Because the texture coordinates are unique, we can't
 				// wrap the geometry around and instead duplicate vertices
 				// along the two seams.
 				//
-				// D-----C
-				// |   / |
-				// | /   |
-				// A-----B
+				// ^	D-----C
+				// |	|   / |
+				// p	| /   |
+				//		A-----B
+				// t ->
 				const int A = (t + 0) * (smallFaces + 1) + (p + 0);
 				const int B = (t + 1) * (smallFaces + 1) + (p + 0);
 				const int C = (t + 1) * (smallFaces + 1) + (p + 1);
@@ -170,7 +178,7 @@ shared_ptr<Model> DemoScene::createTorusModel() {
 				indexArray.append(
 					A, B, C,
 					C, D, A);
-			}
+			}			
 		} // p 
 	} // t
 
