@@ -1,0 +1,1135 @@
+CFrame Rotation, thetaDegrees=0.000000
+vertexArray - rotating points, cos(phi)=1.000000, sin(phi)=0.000000
+vertexArray - creating vertices, v.x=2.500000, v.y=0.000000, v.z=0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=0.000000, v.texCoord0y=0.000000
+indexArray - creating triangles, A=0, B=21, C=22, C=22, D=1, A=0
+loopInfot, t=0, p=0
+vertexArray - rotating points, cos(phi)=0.951057, sin(phi)=0.309017
+vertexArray - creating vertices, v.x=2.475528, v.y=0.154509, v.z=0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=0.000000, v.texCoord0y=0.050000
+indexArray - creating triangles, A=1, B=22, C=23, C=23, D=2, A=1
+loopInfot, t=0, p=1
+vertexArray - rotating points, cos(phi)=0.809017, sin(phi)=0.587785
+vertexArray - creating vertices, v.x=2.404509, v.y=0.293893, v.z=0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=0.000000, v.texCoord0y=0.100000
+indexArray - creating triangles, A=2, B=23, C=24, C=24, D=3, A=2
+loopInfot, t=0, p=2
+vertexArray - rotating points, cos(phi)=0.587785, sin(phi)=0.809017
+vertexArray - creating vertices, v.x=2.293893, v.y=0.404509, v.z=0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=0.000000, v.texCoord0y=0.150000
+indexArray - creating triangles, A=3, B=24, C=25, C=25, D=4, A=3
+loopInfot, t=0, p=3
+vertexArray - rotating points, cos(phi)=0.309017, sin(phi)=0.951057
+vertexArray - creating vertices, v.x=2.154509, v.y=0.475528, v.z=0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=0.000000, v.texCoord0y=0.200000
+indexArray - creating triangles, A=4, B=25, C=26, C=26, D=5, A=4
+loopInfot, t=0, p=4
+vertexArray - rotating points, cos(phi)=-0.000000, sin(phi)=1.000000
+vertexArray - creating vertices, v.x=2.000000, v.y=0.500000, v.z=0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=0.000000, v.texCoord0y=0.250000
+indexArray - creating triangles, A=5, B=26, C=27, C=27, D=6, A=5
+loopInfot, t=0, p=5
+vertexArray - rotating points, cos(phi)=-0.309017, sin(phi)=0.951056
+vertexArray - creating vertices, v.x=1.845492, v.y=0.475528, v.z=0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=0.000000, v.texCoord0y=0.300000
+indexArray - creating triangles, A=6, B=27, C=28, C=28, D=7, A=6
+loopInfot, t=0, p=6
+vertexArray - rotating points, cos(phi)=-0.587785, sin(phi)=0.809017
+vertexArray - creating vertices, v.x=1.706107, v.y=0.404508, v.z=0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=0.000000, v.texCoord0y=0.350000
+indexArray - creating triangles, A=7, B=28, C=29, C=29, D=8, A=7
+loopInfot, t=0, p=7
+vertexArray - rotating points, cos(phi)=-0.809017, sin(phi)=0.587785
+vertexArray - creating vertices, v.x=1.595491, v.y=0.293893, v.z=0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=0.000000, v.texCoord0y=0.400000
+indexArray - creating triangles, A=8, B=29, C=30, C=30, D=9, A=8
+loopInfot, t=0, p=8
+vertexArray - rotating points, cos(phi)=-0.951056, sin(phi)=0.309017
+vertexArray - creating vertices, v.x=1.524472, v.y=0.154509, v.z=0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=0.000000, v.texCoord0y=0.450000
+indexArray - creating triangles, A=9, B=30, C=31, C=31, D=10, A=9
+loopInfot, t=0, p=9
+vertexArray - rotating points, cos(phi)=-1.000000, sin(phi)=-0.000000
+vertexArray - creating vertices, v.x=1.500000, v.y=-0.000000, v.z=0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=0.000000, v.texCoord0y=0.500000
+indexArray - creating triangles, A=10, B=31, C=32, C=32, D=11, A=10
+loopInfot, t=0, p=10
+vertexArray - rotating points, cos(phi)=-0.951056, sin(phi)=-0.309017
+vertexArray - creating vertices, v.x=1.524472, v.y=-0.154509, v.z=0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=0.000000, v.texCoord0y=0.550000
+indexArray - creating triangles, A=11, B=32, C=33, C=33, D=12, A=11
+loopInfot, t=0, p=11
+vertexArray - rotating points, cos(phi)=-0.809017, sin(phi)=-0.587785
+vertexArray - creating vertices, v.x=1.595492, v.y=-0.293893, v.z=0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=0.000000, v.texCoord0y=0.600000
+indexArray - creating triangles, A=12, B=33, C=34, C=34, D=13, A=12
+loopInfot, t=0, p=12
+vertexArray - rotating points, cos(phi)=-0.587785, sin(phi)=-0.809017
+vertexArray - creating vertices, v.x=1.706107, v.y=-0.404509, v.z=0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=0.000000, v.texCoord0y=0.650000
+indexArray - creating triangles, A=13, B=34, C=35, C=35, D=14, A=13
+loopInfot, t=0, p=13
+vertexArray - rotating points, cos(phi)=-0.309017, sin(phi)=-0.951057
+vertexArray - creating vertices, v.x=1.845492, v.y=-0.475528, v.z=0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=0.000000, v.texCoord0y=0.700000
+indexArray - creating triangles, A=14, B=35, C=36, C=36, D=15, A=14
+loopInfot, t=0, p=14
+vertexArray - rotating points, cos(phi)=0.000000, sin(phi)=-1.000000
+vertexArray - creating vertices, v.x=2.000000, v.y=-0.500000, v.z=0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=0.000000, v.texCoord0y=0.750000
+indexArray - creating triangles, A=15, B=36, C=37, C=37, D=16, A=15
+loopInfot, t=0, p=15
+vertexArray - rotating points, cos(phi)=0.309017, sin(phi)=-0.951056
+vertexArray - creating vertices, v.x=2.154509, v.y=-0.475528, v.z=0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=0.000000, v.texCoord0y=0.800000
+indexArray - creating triangles, A=16, B=37, C=38, C=38, D=17, A=16
+loopInfot, t=0, p=16
+vertexArray - rotating points, cos(phi)=0.587785, sin(phi)=-0.809017
+vertexArray - creating vertices, v.x=2.293893, v.y=-0.404508, v.z=0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=0.000000, v.texCoord0y=0.850000
+indexArray - creating triangles, A=17, B=38, C=39, C=39, D=18, A=17
+loopInfot, t=0, p=17
+vertexArray - rotating points, cos(phi)=0.809017, sin(phi)=-0.587785
+vertexArray - creating vertices, v.x=2.404509, v.y=-0.293893, v.z=0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=0.000000, v.texCoord0y=0.900000
+indexArray - creating triangles, A=18, B=39, C=40, C=40, D=19, A=18
+loopInfot, t=0, p=18
+vertexArray - rotating points, cos(phi)=0.951057, sin(phi)=-0.309017
+vertexArray - creating vertices, v.x=2.475528, v.y=-0.154508, v.z=0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=0.000000, v.texCoord0y=0.950000
+indexArray - creating triangles, A=19, B=40, C=41, C=41, D=20, A=19
+loopInfot, t=0, p=19
+vertexArray - rotating points, cos(phi)=1.000000, sin(phi)=0.000000
+vertexArray - creating vertices, v.x=2.500000, v.y=0.000000, v.z=0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=0.000000, v.texCoord0y=1.000000
+loopInfot, t=0, p=20
+CFrame Rotation, thetaDegrees=36.000000
+vertexArray - rotating points, cos(phi)=1.000000, sin(phi)=0.000000
+vertexArray - creating vertices, v.x=2.022542, v.y=0.000000, v.z=-1.469463
+texCoord0 - creating texture coordintes, v.texCoord0x=0.400000, v.texCoord0y=0.000000
+indexArray - creating triangles, A=21, B=42, C=43, C=43, D=22, A=21
+loopInfot, t=1, p=0
+vertexArray - rotating points, cos(phi)=0.951057, sin(phi)=0.309017
+vertexArray - creating vertices, v.x=2.002744, v.y=0.154509, v.z=-1.455079
+texCoord0 - creating texture coordintes, v.texCoord0x=0.400000, v.texCoord0y=0.050000
+indexArray - creating triangles, A=22, B=43, C=44, C=44, D=23, A=22
+loopInfot, t=1, p=1
+vertexArray - rotating points, cos(phi)=0.809017, sin(phi)=0.587785
+vertexArray - creating vertices, v.x=1.945288, v.y=0.293893, v.z=-1.413335
+texCoord0 - creating texture coordintes, v.texCoord0x=0.400000, v.texCoord0y=0.100000
+indexArray - creating triangles, A=23, B=44, C=45, C=45, D=24, A=23
+loopInfot, t=1, p=2
+vertexArray - rotating points, cos(phi)=0.587785, sin(phi)=0.809017
+vertexArray - creating vertices, v.x=1.855798, v.y=0.404509, v.z=-1.348316
+texCoord0 - creating texture coordintes, v.texCoord0x=0.400000, v.texCoord0y=0.150000
+indexArray - creating triangles, A=24, B=45, C=46, C=46, D=25, A=24
+loopInfot, t=1, p=3
+vertexArray - rotating points, cos(phi)=0.309017, sin(phi)=0.951057
+vertexArray - creating vertices, v.x=1.743034, v.y=0.475528, v.z=-1.266388
+texCoord0 - creating texture coordintes, v.texCoord0x=0.400000, v.texCoord0y=0.200000
+indexArray - creating triangles, A=25, B=46, C=47, C=47, D=26, A=25
+loopInfot, t=1, p=4
+vertexArray - rotating points, cos(phi)=-0.000000, sin(phi)=1.000000
+vertexArray - creating vertices, v.x=1.618034, v.y=0.500000, v.z=-1.175570
+texCoord0 - creating texture coordintes, v.texCoord0x=0.400000, v.texCoord0y=0.250000
+indexArray - creating triangles, A=26, B=47, C=48, C=48, D=27, A=26
+loopInfot, t=1, p=5
+vertexArray - rotating points, cos(phi)=-0.309017, sin(phi)=0.951056
+vertexArray - creating vertices, v.x=1.493034, v.y=0.475528, v.z=-1.084753
+texCoord0 - creating texture coordintes, v.texCoord0x=0.400000, v.texCoord0y=0.300000
+indexArray - creating triangles, A=27, B=48, C=49, C=49, D=28, A=27
+loopInfot, t=1, p=6
+vertexArray - rotating points, cos(phi)=-0.587785, sin(phi)=0.809017
+vertexArray - creating vertices, v.x=1.380270, v.y=0.404508, v.z=-1.002825
+texCoord0 - creating texture coordintes, v.texCoord0x=0.400000, v.texCoord0y=0.350000
+indexArray - creating triangles, A=28, B=49, C=50, C=50, D=29, A=28
+loopInfot, t=1, p=7
+vertexArray - rotating points, cos(phi)=-0.809017, sin(phi)=0.587785
+vertexArray - creating vertices, v.x=1.290780, v.y=0.293893, v.z=-0.937806
+texCoord0 - creating texture coordintes, v.texCoord0x=0.400000, v.texCoord0y=0.400000
+indexArray - creating triangles, A=29, B=50, C=51, C=51, D=30, A=29
+loopInfot, t=1, p=8
+vertexArray - rotating points, cos(phi)=-0.951056, sin(phi)=0.309017
+vertexArray - creating vertices, v.x=1.233324, v.y=0.154509, v.z=-0.896062
+texCoord0 - creating texture coordintes, v.texCoord0x=0.400000, v.texCoord0y=0.450000
+indexArray - creating triangles, A=30, B=51, C=52, C=52, D=31, A=30
+loopInfot, t=1, p=9
+vertexArray - rotating points, cos(phi)=-1.000000, sin(phi)=-0.000000
+vertexArray - creating vertices, v.x=1.213526, v.y=-0.000000, v.z=-0.881678
+texCoord0 - creating texture coordintes, v.texCoord0x=0.400000, v.texCoord0y=0.500000
+indexArray - creating triangles, A=31, B=52, C=53, C=53, D=32, A=31
+loopInfot, t=1, p=10
+vertexArray - rotating points, cos(phi)=-0.951056, sin(phi)=-0.309017
+vertexArray - creating vertices, v.x=1.233324, v.y=-0.154509, v.z=-0.896062
+texCoord0 - creating texture coordintes, v.texCoord0x=0.400000, v.texCoord0y=0.550000
+indexArray - creating triangles, A=32, B=53, C=54, C=54, D=33, A=32
+loopInfot, t=1, p=11
+vertexArray - rotating points, cos(phi)=-0.809017, sin(phi)=-0.587785
+vertexArray - creating vertices, v.x=1.290780, v.y=-0.293893, v.z=-0.937806
+texCoord0 - creating texture coordintes, v.texCoord0x=0.400000, v.texCoord0y=0.600000
+indexArray - creating triangles, A=33, B=54, C=55, C=55, D=34, A=33
+loopInfot, t=1, p=12
+vertexArray - rotating points, cos(phi)=-0.587785, sin(phi)=-0.809017
+vertexArray - creating vertices, v.x=1.380270, v.y=-0.404509, v.z=-1.002825
+texCoord0 - creating texture coordintes, v.texCoord0x=0.400000, v.texCoord0y=0.650000
+indexArray - creating triangles, A=34, B=55, C=56, C=56, D=35, A=34
+loopInfot, t=1, p=13
+vertexArray - rotating points, cos(phi)=-0.309017, sin(phi)=-0.951057
+vertexArray - creating vertices, v.x=1.493034, v.y=-0.475528, v.z=-1.084753
+texCoord0 - creating texture coordintes, v.texCoord0x=0.400000, v.texCoord0y=0.700000
+indexArray - creating triangles, A=35, B=56, C=57, C=57, D=36, A=35
+loopInfot, t=1, p=14
+vertexArray - rotating points, cos(phi)=0.000000, sin(phi)=-1.000000
+vertexArray - creating vertices, v.x=1.618034, v.y=-0.500000, v.z=-1.175570
+texCoord0 - creating texture coordintes, v.texCoord0x=0.400000, v.texCoord0y=0.750000
+indexArray - creating triangles, A=36, B=57, C=58, C=58, D=37, A=36
+loopInfot, t=1, p=15
+vertexArray - rotating points, cos(phi)=0.309017, sin(phi)=-0.951056
+vertexArray - creating vertices, v.x=1.743034, v.y=-0.475528, v.z=-1.266388
+texCoord0 - creating texture coordintes, v.texCoord0x=0.400000, v.texCoord0y=0.800000
+indexArray - creating triangles, A=37, B=58, C=59, C=59, D=38, A=37
+loopInfot, t=1, p=16
+vertexArray - rotating points, cos(phi)=0.587785, sin(phi)=-0.809017
+vertexArray - creating vertices, v.x=1.855798, v.y=-0.404508, v.z=-1.348316
+texCoord0 - creating texture coordintes, v.texCoord0x=0.400000, v.texCoord0y=0.850000
+indexArray - creating triangles, A=38, B=59, C=60, C=60, D=39, A=38
+loopInfot, t=1, p=17
+vertexArray - rotating points, cos(phi)=0.809017, sin(phi)=-0.587785
+vertexArray - creating vertices, v.x=1.945288, v.y=-0.293893, v.z=-1.413335
+texCoord0 - creating texture coordintes, v.texCoord0x=0.400000, v.texCoord0y=0.900000
+indexArray - creating triangles, A=39, B=60, C=61, C=61, D=40, A=39
+loopInfot, t=1, p=18
+vertexArray - rotating points, cos(phi)=0.951057, sin(phi)=-0.309017
+vertexArray - creating vertices, v.x=2.002744, v.y=-0.154508, v.z=-1.455079
+texCoord0 - creating texture coordintes, v.texCoord0x=0.400000, v.texCoord0y=0.950000
+indexArray - creating triangles, A=40, B=61, C=62, C=62, D=41, A=40
+loopInfot, t=1, p=19
+vertexArray - rotating points, cos(phi)=1.000000, sin(phi)=0.000000
+vertexArray - creating vertices, v.x=2.022542, v.y=0.000000, v.z=-1.469463
+texCoord0 - creating texture coordintes, v.texCoord0x=0.400000, v.texCoord0y=1.000000
+loopInfot, t=1, p=20
+CFrame Rotation, thetaDegrees=72.000000
+vertexArray - rotating points, cos(phi)=1.000000, sin(phi)=0.000000
+vertexArray - creating vertices, v.x=0.772542, v.y=0.000000, v.z=-2.377641
+texCoord0 - creating texture coordintes, v.texCoord0x=0.800000, v.texCoord0y=0.000000
+indexArray - creating triangles, A=42, B=63, C=64, C=64, D=43, A=42
+loopInfot, t=2, p=0
+vertexArray - rotating points, cos(phi)=0.951057, sin(phi)=0.309017
+vertexArray - creating vertices, v.x=0.764980, v.y=0.154509, v.z=-2.354367
+texCoord0 - creating texture coordintes, v.texCoord0x=0.800000, v.texCoord0y=0.050000
+indexArray - creating triangles, A=43, B=64, C=65, C=65, D=44, A=43
+loopInfot, t=2, p=1
+vertexArray - rotating points, cos(phi)=0.809017, sin(phi)=0.587785
+vertexArray - creating vertices, v.x=0.743034, v.y=0.293893, v.z=-2.286824
+texCoord0 - creating texture coordintes, v.texCoord0x=0.800000, v.texCoord0y=0.100000
+indexArray - creating triangles, A=44, B=65, C=66, C=66, D=45, A=44
+loopInfot, t=2, p=2
+vertexArray - rotating points, cos(phi)=0.587785, sin(phi)=0.809017
+vertexArray - creating vertices, v.x=0.708852, v.y=0.404509, v.z=-2.181622
+texCoord0 - creating texture coordintes, v.texCoord0x=0.800000, v.texCoord0y=0.150000
+indexArray - creating triangles, A=45, B=66, C=67, C=67, D=46, A=45
+loopInfot, t=2, p=3
+vertexArray - rotating points, cos(phi)=0.309017, sin(phi)=0.951057
+vertexArray - creating vertices, v.x=0.665780, v.y=0.475528, v.z=-2.049059
+texCoord0 - creating texture coordintes, v.texCoord0x=0.800000, v.texCoord0y=0.200000
+indexArray - creating triangles, A=46, B=67, C=68, C=68, D=47, A=46
+loopInfot, t=2, p=4
+vertexArray - rotating points, cos(phi)=-0.000000, sin(phi)=1.000000
+vertexArray - creating vertices, v.x=0.618034, v.y=0.500000, v.z=-1.902113
+texCoord0 - creating texture coordintes, v.texCoord0x=0.800000, v.texCoord0y=0.250000
+indexArray - creating triangles, A=47, B=68, C=69, C=69, D=48, A=47
+loopInfot, t=2, p=5
+vertexArray - rotating points, cos(phi)=-0.309017, sin(phi)=0.951056
+vertexArray - creating vertices, v.x=0.570288, v.y=0.475528, v.z=-1.755167
+texCoord0 - creating texture coordintes, v.texCoord0x=0.800000, v.texCoord0y=0.300000
+indexArray - creating triangles, A=48, B=69, C=70, C=70, D=49, A=48
+loopInfot, t=2, p=6
+vertexArray - rotating points, cos(phi)=-0.587785, sin(phi)=0.809017
+vertexArray - creating vertices, v.x=0.527216, v.y=0.404508, v.z=-1.622604
+texCoord0 - creating texture coordintes, v.texCoord0x=0.800000, v.texCoord0y=0.350000
+indexArray - creating triangles, A=49, B=70, C=71, C=71, D=50, A=49
+loopInfot, t=2, p=7
+vertexArray - rotating points, cos(phi)=-0.809017, sin(phi)=0.587785
+vertexArray - creating vertices, v.x=0.493034, v.y=0.293893, v.z=-1.517403
+texCoord0 - creating texture coordintes, v.texCoord0x=0.800000, v.texCoord0y=0.400000
+indexArray - creating triangles, A=50, B=71, C=72, C=72, D=51, A=50
+loopInfot, t=2, p=8
+vertexArray - rotating points, cos(phi)=-0.951056, sin(phi)=0.309017
+vertexArray - creating vertices, v.x=0.471088, v.y=0.154509, v.z=-1.449859
+texCoord0 - creating texture coordintes, v.texCoord0x=0.800000, v.texCoord0y=0.450000
+indexArray - creating triangles, A=51, B=72, C=73, C=73, D=52, A=51
+loopInfot, t=2, p=9
+vertexArray - rotating points, cos(phi)=-1.000000, sin(phi)=-0.000000
+vertexArray - creating vertices, v.x=0.463525, v.y=-0.000000, v.z=-1.426585
+texCoord0 - creating texture coordintes, v.texCoord0x=0.800000, v.texCoord0y=0.500000
+indexArray - creating triangles, A=52, B=73, C=74, C=74, D=53, A=52
+loopInfot, t=2, p=10
+vertexArray - rotating points, cos(phi)=-0.951056, sin(phi)=-0.309017
+vertexArray - creating vertices, v.x=0.471088, v.y=-0.154509, v.z=-1.449859
+texCoord0 - creating texture coordintes, v.texCoord0x=0.800000, v.texCoord0y=0.550000
+indexArray - creating triangles, A=53, B=74, C=75, C=75, D=54, A=53
+loopInfot, t=2, p=11
+vertexArray - rotating points, cos(phi)=-0.809017, sin(phi)=-0.587785
+vertexArray - creating vertices, v.x=0.493034, v.y=-0.293893, v.z=-1.517403
+texCoord0 - creating texture coordintes, v.texCoord0x=0.800000, v.texCoord0y=0.600000
+indexArray - creating triangles, A=54, B=75, C=76, C=76, D=55, A=54
+loopInfot, t=2, p=12
+vertexArray - rotating points, cos(phi)=-0.587785, sin(phi)=-0.809017
+vertexArray - creating vertices, v.x=0.527216, v.y=-0.404509, v.z=-1.622605
+texCoord0 - creating texture coordintes, v.texCoord0x=0.800000, v.texCoord0y=0.650000
+indexArray - creating triangles, A=55, B=76, C=77, C=77, D=56, A=55
+loopInfot, t=2, p=13
+vertexArray - rotating points, cos(phi)=-0.309017, sin(phi)=-0.951057
+vertexArray - creating vertices, v.x=0.570288, v.y=-0.475528, v.z=-1.755167
+texCoord0 - creating texture coordintes, v.texCoord0x=0.800000, v.texCoord0y=0.700000
+indexArray - creating triangles, A=56, B=77, C=78, C=78, D=57, A=56
+loopInfot, t=2, p=14
+vertexArray - rotating points, cos(phi)=0.000000, sin(phi)=-1.000000
+vertexArray - creating vertices, v.x=0.618034, v.y=-0.500000, v.z=-1.902113
+texCoord0 - creating texture coordintes, v.texCoord0x=0.800000, v.texCoord0y=0.750000
+indexArray - creating triangles, A=57, B=78, C=79, C=79, D=58, A=57
+loopInfot, t=2, p=15
+vertexArray - rotating points, cos(phi)=0.309017, sin(phi)=-0.951056
+vertexArray - creating vertices, v.x=0.665780, v.y=-0.475528, v.z=-2.049059
+texCoord0 - creating texture coordintes, v.texCoord0x=0.800000, v.texCoord0y=0.800000
+indexArray - creating triangles, A=58, B=79, C=80, C=80, D=59, A=58
+loopInfot, t=2, p=16
+vertexArray - rotating points, cos(phi)=0.587785, sin(phi)=-0.809017
+vertexArray - creating vertices, v.x=0.708852, v.y=-0.404508, v.z=-2.181622
+texCoord0 - creating texture coordintes, v.texCoord0x=0.800000, v.texCoord0y=0.850000
+indexArray - creating triangles, A=59, B=80, C=81, C=81, D=60, A=59
+loopInfot, t=2, p=17
+vertexArray - rotating points, cos(phi)=0.809017, sin(phi)=-0.587785
+vertexArray - creating vertices, v.x=0.743034, v.y=-0.293893, v.z=-2.286824
+texCoord0 - creating texture coordintes, v.texCoord0x=0.800000, v.texCoord0y=0.900000
+indexArray - creating triangles, A=60, B=81, C=82, C=82, D=61, A=60
+loopInfot, t=2, p=18
+vertexArray - rotating points, cos(phi)=0.951057, sin(phi)=-0.309017
+vertexArray - creating vertices, v.x=0.764980, v.y=-0.154508, v.z=-2.354367
+texCoord0 - creating texture coordintes, v.texCoord0x=0.800000, v.texCoord0y=0.950000
+indexArray - creating triangles, A=61, B=82, C=83, C=83, D=62, A=61
+loopInfot, t=2, p=19
+vertexArray - rotating points, cos(phi)=1.000000, sin(phi)=0.000000
+vertexArray - creating vertices, v.x=0.772542, v.y=0.000000, v.z=-2.377641
+texCoord0 - creating texture coordintes, v.texCoord0x=0.800000, v.texCoord0y=1.000000
+loopInfot, t=2, p=20
+CFrame Rotation, thetaDegrees=108.000000
+vertexArray - rotating points, cos(phi)=1.000000, sin(phi)=0.000000
+vertexArray - creating vertices, v.x=-0.772543, v.y=0.000000, v.z=-2.377641
+texCoord0 - creating texture coordintes, v.texCoord0x=1.200000, v.texCoord0y=0.000000
+indexArray - creating triangles, A=63, B=84, C=85, C=85, D=64, A=63
+loopInfot, t=3, p=0
+vertexArray - rotating points, cos(phi)=0.951057, sin(phi)=0.309017
+vertexArray - creating vertices, v.x=-0.764980, v.y=0.154509, v.z=-2.354367
+texCoord0 - creating texture coordintes, v.texCoord0x=1.200000, v.texCoord0y=0.050000
+indexArray - creating triangles, A=64, B=85, C=86, C=86, D=65, A=64
+loopInfot, t=3, p=1
+vertexArray - rotating points, cos(phi)=0.809017, sin(phi)=0.587785
+vertexArray - creating vertices, v.x=-0.743034, v.y=0.293893, v.z=-2.286824
+texCoord0 - creating texture coordintes, v.texCoord0x=1.200000, v.texCoord0y=0.100000
+indexArray - creating triangles, A=65, B=86, C=87, C=87, D=66, A=65
+loopInfot, t=3, p=2
+vertexArray - rotating points, cos(phi)=0.587785, sin(phi)=0.809017
+vertexArray - creating vertices, v.x=-0.708852, v.y=0.404509, v.z=-2.181622
+texCoord0 - creating texture coordintes, v.texCoord0x=1.200000, v.texCoord0y=0.150000
+indexArray - creating triangles, A=66, B=87, C=88, C=88, D=67, A=66
+loopInfot, t=3, p=3
+vertexArray - rotating points, cos(phi)=0.309017, sin(phi)=0.951057
+vertexArray - creating vertices, v.x=-0.665780, v.y=0.475528, v.z=-2.049059
+texCoord0 - creating texture coordintes, v.texCoord0x=1.200000, v.texCoord0y=0.200000
+indexArray - creating triangles, A=67, B=88, C=89, C=89, D=68, A=67
+loopInfot, t=3, p=4
+vertexArray - rotating points, cos(phi)=-0.000000, sin(phi)=1.000000
+vertexArray - creating vertices, v.x=-0.618034, v.y=0.500000, v.z=-1.902113
+texCoord0 - creating texture coordintes, v.texCoord0x=1.200000, v.texCoord0y=0.250000
+indexArray - creating triangles, A=68, B=89, C=90, C=90, D=69, A=68
+loopInfot, t=3, p=5
+vertexArray - rotating points, cos(phi)=-0.309017, sin(phi)=0.951056
+vertexArray - creating vertices, v.x=-0.570288, v.y=0.475528, v.z=-1.755167
+texCoord0 - creating texture coordintes, v.texCoord0x=1.200000, v.texCoord0y=0.300000
+indexArray - creating triangles, A=69, B=90, C=91, C=91, D=70, A=69
+loopInfot, t=3, p=6
+vertexArray - rotating points, cos(phi)=-0.587785, sin(phi)=0.809017
+vertexArray - creating vertices, v.x=-0.527216, v.y=0.404508, v.z=-1.622604
+texCoord0 - creating texture coordintes, v.texCoord0x=1.200000, v.texCoord0y=0.350000
+indexArray - creating triangles, A=70, B=91, C=92, C=92, D=71, A=70
+loopInfot, t=3, p=7
+vertexArray - rotating points, cos(phi)=-0.809017, sin(phi)=0.587785
+vertexArray - creating vertices, v.x=-0.493034, v.y=0.293893, v.z=-1.517402
+texCoord0 - creating texture coordintes, v.texCoord0x=1.200000, v.texCoord0y=0.400000
+indexArray - creating triangles, A=71, B=92, C=93, C=93, D=72, A=71
+loopInfot, t=3, p=8
+vertexArray - rotating points, cos(phi)=-0.951056, sin(phi)=0.309017
+vertexArray - creating vertices, v.x=-0.471088, v.y=0.154509, v.z=-1.449859
+texCoord0 - creating texture coordintes, v.texCoord0x=1.200000, v.texCoord0y=0.450000
+indexArray - creating triangles, A=72, B=93, C=94, C=94, D=73, A=72
+loopInfot, t=3, p=9
+vertexArray - rotating points, cos(phi)=-1.000000, sin(phi)=-0.000000
+vertexArray - creating vertices, v.x=-0.463526, v.y=-0.000000, v.z=-1.426585
+texCoord0 - creating texture coordintes, v.texCoord0x=1.200000, v.texCoord0y=0.500000
+indexArray - creating triangles, A=73, B=94, C=95, C=95, D=74, A=73
+loopInfot, t=3, p=10
+vertexArray - rotating points, cos(phi)=-0.951056, sin(phi)=-0.309017
+vertexArray - creating vertices, v.x=-0.471088, v.y=-0.154509, v.z=-1.449859
+texCoord0 - creating texture coordintes, v.texCoord0x=1.200000, v.texCoord0y=0.550000
+indexArray - creating triangles, A=74, B=95, C=96, C=96, D=75, A=74
+loopInfot, t=3, p=11
+vertexArray - rotating points, cos(phi)=-0.809017, sin(phi)=-0.587785
+vertexArray - creating vertices, v.x=-0.493034, v.y=-0.293893, v.z=-1.517403
+texCoord0 - creating texture coordintes, v.texCoord0x=1.200000, v.texCoord0y=0.600000
+indexArray - creating triangles, A=75, B=96, C=97, C=97, D=76, A=75
+loopInfot, t=3, p=12
+vertexArray - rotating points, cos(phi)=-0.587785, sin(phi)=-0.809017
+vertexArray - creating vertices, v.x=-0.527216, v.y=-0.404509, v.z=-1.622604
+texCoord0 - creating texture coordintes, v.texCoord0x=1.200000, v.texCoord0y=0.650000
+indexArray - creating triangles, A=76, B=97, C=98, C=98, D=77, A=76
+loopInfot, t=3, p=13
+vertexArray - rotating points, cos(phi)=-0.309017, sin(phi)=-0.951057
+vertexArray - creating vertices, v.x=-0.570288, v.y=-0.475528, v.z=-1.755167
+texCoord0 - creating texture coordintes, v.texCoord0x=1.200000, v.texCoord0y=0.700000
+indexArray - creating triangles, A=77, B=98, C=99, C=99, D=78, A=77
+loopInfot, t=3, p=14
+vertexArray - rotating points, cos(phi)=0.000000, sin(phi)=-1.000000
+vertexArray - creating vertices, v.x=-0.618034, v.y=-0.500000, v.z=-1.902113
+texCoord0 - creating texture coordintes, v.texCoord0x=1.200000, v.texCoord0y=0.750000
+indexArray - creating triangles, A=78, B=99, C=100, C=100, D=79, A=78
+loopInfot, t=3, p=15
+vertexArray - rotating points, cos(phi)=0.309017, sin(phi)=-0.951056
+vertexArray - creating vertices, v.x=-0.665780, v.y=-0.475528, v.z=-2.049059
+texCoord0 - creating texture coordintes, v.texCoord0x=1.200000, v.texCoord0y=0.800000
+indexArray - creating triangles, A=79, B=100, C=101, C=101, D=80, A=79
+loopInfot, t=3, p=16
+vertexArray - rotating points, cos(phi)=0.587785, sin(phi)=-0.809017
+vertexArray - creating vertices, v.x=-0.708852, v.y=-0.404508, v.z=-2.181622
+texCoord0 - creating texture coordintes, v.texCoord0x=1.200000, v.texCoord0y=0.850000
+indexArray - creating triangles, A=80, B=101, C=102, C=102, D=81, A=80
+loopInfot, t=3, p=17
+vertexArray - rotating points, cos(phi)=0.809017, sin(phi)=-0.587785
+vertexArray - creating vertices, v.x=-0.743034, v.y=-0.293893, v.z=-2.286824
+texCoord0 - creating texture coordintes, v.texCoord0x=1.200000, v.texCoord0y=0.900000
+indexArray - creating triangles, A=81, B=102, C=103, C=103, D=82, A=81
+loopInfot, t=3, p=18
+vertexArray - rotating points, cos(phi)=0.951057, sin(phi)=-0.309017
+vertexArray - creating vertices, v.x=-0.764980, v.y=-0.154508, v.z=-2.354367
+texCoord0 - creating texture coordintes, v.texCoord0x=1.200000, v.texCoord0y=0.950000
+indexArray - creating triangles, A=82, B=103, C=104, C=104, D=83, A=82
+loopInfot, t=3, p=19
+vertexArray - rotating points, cos(phi)=1.000000, sin(phi)=0.000000
+vertexArray - creating vertices, v.x=-0.772543, v.y=0.000000, v.z=-2.377641
+texCoord0 - creating texture coordintes, v.texCoord0x=1.200000, v.texCoord0y=1.000000
+loopInfot, t=3, p=20
+CFrame Rotation, thetaDegrees=144.000000
+vertexArray - rotating points, cos(phi)=1.000000, sin(phi)=0.000000
+vertexArray - creating vertices, v.x=-2.022543, v.y=0.000000, v.z=-1.469463
+texCoord0 - creating texture coordintes, v.texCoord0x=1.600000, v.texCoord0y=0.000000
+indexArray - creating triangles, A=84, B=105, C=106, C=106, D=85, A=84
+loopInfot, t=4, p=0
+vertexArray - rotating points, cos(phi)=0.951057, sin(phi)=0.309017
+vertexArray - creating vertices, v.x=-2.002745, v.y=0.154509, v.z=-1.455079
+texCoord0 - creating texture coordintes, v.texCoord0x=1.600000, v.texCoord0y=0.050000
+indexArray - creating triangles, A=85, B=106, C=107, C=107, D=86, A=85
+loopInfot, t=4, p=1
+vertexArray - rotating points, cos(phi)=0.809017, sin(phi)=0.587785
+vertexArray - creating vertices, v.x=-1.945288, v.y=0.293893, v.z=-1.413334
+texCoord0 - creating texture coordintes, v.texCoord0x=1.600000, v.texCoord0y=0.100000
+indexArray - creating triangles, A=86, B=107, C=108, C=108, D=87, A=86
+loopInfot, t=4, p=2
+vertexArray - rotating points, cos(phi)=0.587785, sin(phi)=0.809017
+vertexArray - creating vertices, v.x=-1.855798, v.y=0.404509, v.z=-1.348316
+texCoord0 - creating texture coordintes, v.texCoord0x=1.600000, v.texCoord0y=0.150000
+indexArray - creating triangles, A=87, B=108, C=109, C=109, D=88, A=87
+loopInfot, t=4, p=3
+vertexArray - rotating points, cos(phi)=0.309017, sin(phi)=0.951057
+vertexArray - creating vertices, v.x=-1.743034, v.y=0.475528, v.z=-1.266388
+texCoord0 - creating texture coordintes, v.texCoord0x=1.600000, v.texCoord0y=0.200000
+indexArray - creating triangles, A=88, B=109, C=110, C=110, D=89, A=88
+loopInfot, t=4, p=4
+vertexArray - rotating points, cos(phi)=-0.000000, sin(phi)=1.000000
+vertexArray - creating vertices, v.x=-1.618034, v.y=0.500000, v.z=-1.175570
+texCoord0 - creating texture coordintes, v.texCoord0x=1.600000, v.texCoord0y=0.250000
+indexArray - creating triangles, A=89, B=110, C=111, C=111, D=90, A=89
+loopInfot, t=4, p=5
+vertexArray - rotating points, cos(phi)=-0.309017, sin(phi)=0.951056
+vertexArray - creating vertices, v.x=-1.493034, v.y=0.475528, v.z=-1.084753
+texCoord0 - creating texture coordintes, v.texCoord0x=1.600000, v.texCoord0y=0.300000
+indexArray - creating triangles, A=90, B=111, C=112, C=112, D=91, A=90
+loopInfot, t=4, p=6
+vertexArray - rotating points, cos(phi)=-0.587785, sin(phi)=0.809017
+vertexArray - creating vertices, v.x=-1.380270, v.y=0.404508, v.z=-1.002825
+texCoord0 - creating texture coordintes, v.texCoord0x=1.600000, v.texCoord0y=0.350000
+indexArray - creating triangles, A=91, B=112, C=113, C=113, D=92, A=91
+loopInfot, t=4, p=7
+vertexArray - rotating points, cos(phi)=-0.809017, sin(phi)=0.587785
+vertexArray - creating vertices, v.x=-1.290780, v.y=0.293893, v.z=-0.937806
+texCoord0 - creating texture coordintes, v.texCoord0x=1.600000, v.texCoord0y=0.400000
+indexArray - creating triangles, A=92, B=113, C=114, C=114, D=93, A=92
+loopInfot, t=4, p=8
+vertexArray - rotating points, cos(phi)=-0.951056, sin(phi)=0.309017
+vertexArray - creating vertices, v.x=-1.233324, v.y=0.154509, v.z=-0.896062
+texCoord0 - creating texture coordintes, v.texCoord0x=1.600000, v.texCoord0y=0.450000
+indexArray - creating triangles, A=93, B=114, C=115, C=115, D=94, A=93
+loopInfot, t=4, p=9
+vertexArray - rotating points, cos(phi)=-1.000000, sin(phi)=-0.000000
+vertexArray - creating vertices, v.x=-1.213526, v.y=-0.000000, v.z=-0.881678
+texCoord0 - creating texture coordintes, v.texCoord0x=1.600000, v.texCoord0y=0.500000
+indexArray - creating triangles, A=94, B=115, C=116, C=116, D=95, A=94
+loopInfot, t=4, p=10
+vertexArray - rotating points, cos(phi)=-0.951056, sin(phi)=-0.309017
+vertexArray - creating vertices, v.x=-1.233324, v.y=-0.154509, v.z=-0.896062
+texCoord0 - creating texture coordintes, v.texCoord0x=1.600000, v.texCoord0y=0.550000
+indexArray - creating triangles, A=95, B=116, C=117, C=117, D=96, A=95
+loopInfot, t=4, p=11
+vertexArray - rotating points, cos(phi)=-0.809017, sin(phi)=-0.587785
+vertexArray - creating vertices, v.x=-1.290780, v.y=-0.293893, v.z=-0.937806
+texCoord0 - creating texture coordintes, v.texCoord0x=1.600000, v.texCoord0y=0.600000
+indexArray - creating triangles, A=96, B=117, C=118, C=118, D=97, A=96
+loopInfot, t=4, p=12
+vertexArray - rotating points, cos(phi)=-0.587785, sin(phi)=-0.809017
+vertexArray - creating vertices, v.x=-1.380270, v.y=-0.404509, v.z=-1.002825
+texCoord0 - creating texture coordintes, v.texCoord0x=1.600000, v.texCoord0y=0.650000
+indexArray - creating triangles, A=97, B=118, C=119, C=119, D=98, A=97
+loopInfot, t=4, p=13
+vertexArray - rotating points, cos(phi)=-0.309017, sin(phi)=-0.951057
+vertexArray - creating vertices, v.x=-1.493034, v.y=-0.475528, v.z=-1.084753
+texCoord0 - creating texture coordintes, v.texCoord0x=1.600000, v.texCoord0y=0.700000
+indexArray - creating triangles, A=98, B=119, C=120, C=120, D=99, A=98
+loopInfot, t=4, p=14
+vertexArray - rotating points, cos(phi)=0.000000, sin(phi)=-1.000000
+vertexArray - creating vertices, v.x=-1.618034, v.y=-0.500000, v.z=-1.175570
+texCoord0 - creating texture coordintes, v.texCoord0x=1.600000, v.texCoord0y=0.750000
+indexArray - creating triangles, A=99, B=120, C=121, C=121, D=100, A=99
+loopInfot, t=4, p=15
+vertexArray - rotating points, cos(phi)=0.309017, sin(phi)=-0.951056
+vertexArray - creating vertices, v.x=-1.743034, v.y=-0.475528, v.z=-1.266388
+texCoord0 - creating texture coordintes, v.texCoord0x=1.600000, v.texCoord0y=0.800000
+indexArray - creating triangles, A=100, B=121, C=122, C=122, D=101, A=100
+loopInfot, t=4, p=16
+vertexArray - rotating points, cos(phi)=0.587785, sin(phi)=-0.809017
+vertexArray - creating vertices, v.x=-1.855798, v.y=-0.404508, v.z=-1.348316
+texCoord0 - creating texture coordintes, v.texCoord0x=1.600000, v.texCoord0y=0.850000
+indexArray - creating triangles, A=101, B=122, C=123, C=123, D=102, A=101
+loopInfot, t=4, p=17
+vertexArray - rotating points, cos(phi)=0.809017, sin(phi)=-0.587785
+vertexArray - creating vertices, v.x=-1.945288, v.y=-0.293893, v.z=-1.413334
+texCoord0 - creating texture coordintes, v.texCoord0x=1.600000, v.texCoord0y=0.900000
+indexArray - creating triangles, A=102, B=123, C=124, C=124, D=103, A=102
+loopInfot, t=4, p=18
+vertexArray - rotating points, cos(phi)=0.951057, sin(phi)=-0.309017
+vertexArray - creating vertices, v.x=-2.002745, v.y=-0.154508, v.z=-1.455079
+texCoord0 - creating texture coordintes, v.texCoord0x=1.600000, v.texCoord0y=0.950000
+indexArray - creating triangles, A=103, B=124, C=125, C=125, D=104, A=103
+loopInfot, t=4, p=19
+vertexArray - rotating points, cos(phi)=1.000000, sin(phi)=0.000000
+vertexArray - creating vertices, v.x=-2.022543, v.y=0.000000, v.z=-1.469463
+texCoord0 - creating texture coordintes, v.texCoord0x=1.600000, v.texCoord0y=1.000000
+loopInfot, t=4, p=20
+CFrame Rotation, thetaDegrees=180.000000
+vertexArray - rotating points, cos(phi)=1.000000, sin(phi)=0.000000
+vertexArray - creating vertices, v.x=-2.500000, v.y=0.000000, v.z=0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=2.000000, v.texCoord0y=0.000000
+indexArray - creating triangles, A=105, B=126, C=127, C=127, D=106, A=105
+loopInfot, t=5, p=0
+vertexArray - rotating points, cos(phi)=0.951057, sin(phi)=0.309017
+vertexArray - creating vertices, v.x=-2.475528, v.y=0.154509, v.z=0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=2.000000, v.texCoord0y=0.050000
+indexArray - creating triangles, A=106, B=127, C=128, C=128, D=107, A=106
+loopInfot, t=5, p=1
+vertexArray - rotating points, cos(phi)=0.809017, sin(phi)=0.587785
+vertexArray - creating vertices, v.x=-2.404509, v.y=0.293893, v.z=0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=2.000000, v.texCoord0y=0.100000
+indexArray - creating triangles, A=107, B=128, C=129, C=129, D=108, A=107
+loopInfot, t=5, p=2
+vertexArray - rotating points, cos(phi)=0.587785, sin(phi)=0.809017
+vertexArray - creating vertices, v.x=-2.293893, v.y=0.404509, v.z=0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=2.000000, v.texCoord0y=0.150000
+indexArray - creating triangles, A=108, B=129, C=130, C=130, D=109, A=108
+loopInfot, t=5, p=3
+vertexArray - rotating points, cos(phi)=0.309017, sin(phi)=0.951057
+vertexArray - creating vertices, v.x=-2.154509, v.y=0.475528, v.z=0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=2.000000, v.texCoord0y=0.200000
+indexArray - creating triangles, A=109, B=130, C=131, C=131, D=110, A=109
+loopInfot, t=5, p=4
+vertexArray - rotating points, cos(phi)=-0.000000, sin(phi)=1.000000
+vertexArray - creating vertices, v.x=-2.000000, v.y=0.500000, v.z=0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=2.000000, v.texCoord0y=0.250000
+indexArray - creating triangles, A=110, B=131, C=132, C=132, D=111, A=110
+loopInfot, t=5, p=5
+vertexArray - rotating points, cos(phi)=-0.309017, sin(phi)=0.951056
+vertexArray - creating vertices, v.x=-1.845492, v.y=0.475528, v.z=0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=2.000000, v.texCoord0y=0.300000
+indexArray - creating triangles, A=111, B=132, C=133, C=133, D=112, A=111
+loopInfot, t=5, p=6
+vertexArray - rotating points, cos(phi)=-0.587785, sin(phi)=0.809017
+vertexArray - creating vertices, v.x=-1.706107, v.y=0.404508, v.z=0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=2.000000, v.texCoord0y=0.350000
+indexArray - creating triangles, A=112, B=133, C=134, C=134, D=113, A=112
+loopInfot, t=5, p=7
+vertexArray - rotating points, cos(phi)=-0.809017, sin(phi)=0.587785
+vertexArray - creating vertices, v.x=-1.595491, v.y=0.293893, v.z=0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=2.000000, v.texCoord0y=0.400000
+indexArray - creating triangles, A=113, B=134, C=135, C=135, D=114, A=113
+loopInfot, t=5, p=8
+vertexArray - rotating points, cos(phi)=-0.951056, sin(phi)=0.309017
+vertexArray - creating vertices, v.x=-1.524472, v.y=0.154509, v.z=0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=2.000000, v.texCoord0y=0.450000
+indexArray - creating triangles, A=114, B=135, C=136, C=136, D=115, A=114
+loopInfot, t=5, p=9
+vertexArray - rotating points, cos(phi)=-1.000000, sin(phi)=-0.000000
+vertexArray - creating vertices, v.x=-1.500000, v.y=-0.000000, v.z=0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=2.000000, v.texCoord0y=0.500000
+indexArray - creating triangles, A=115, B=136, C=137, C=137, D=116, A=115
+loopInfot, t=5, p=10
+vertexArray - rotating points, cos(phi)=-0.951056, sin(phi)=-0.309017
+vertexArray - creating vertices, v.x=-1.524472, v.y=-0.154509, v.z=0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=2.000000, v.texCoord0y=0.550000
+indexArray - creating triangles, A=116, B=137, C=138, C=138, D=117, A=116
+loopInfot, t=5, p=11
+vertexArray - rotating points, cos(phi)=-0.809017, sin(phi)=-0.587785
+vertexArray - creating vertices, v.x=-1.595492, v.y=-0.293893, v.z=0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=2.000000, v.texCoord0y=0.600000
+indexArray - creating triangles, A=117, B=138, C=139, C=139, D=118, A=117
+loopInfot, t=5, p=12
+vertexArray - rotating points, cos(phi)=-0.587785, sin(phi)=-0.809017
+vertexArray - creating vertices, v.x=-1.706107, v.y=-0.404509, v.z=0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=2.000000, v.texCoord0y=0.650000
+indexArray - creating triangles, A=118, B=139, C=140, C=140, D=119, A=118
+loopInfot, t=5, p=13
+vertexArray - rotating points, cos(phi)=-0.309017, sin(phi)=-0.951057
+vertexArray - creating vertices, v.x=-1.845492, v.y=-0.475528, v.z=0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=2.000000, v.texCoord0y=0.700000
+indexArray - creating triangles, A=119, B=140, C=141, C=141, D=120, A=119
+loopInfot, t=5, p=14
+vertexArray - rotating points, cos(phi)=0.000000, sin(phi)=-1.000000
+vertexArray - creating vertices, v.x=-2.000000, v.y=-0.500000, v.z=0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=2.000000, v.texCoord0y=0.750000
+indexArray - creating triangles, A=120, B=141, C=142, C=142, D=121, A=120
+loopInfot, t=5, p=15
+vertexArray - rotating points, cos(phi)=0.309017, sin(phi)=-0.951056
+vertexArray - creating vertices, v.x=-2.154509, v.y=-0.475528, v.z=0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=2.000000, v.texCoord0y=0.800000
+indexArray - creating triangles, A=121, B=142, C=143, C=143, D=122, A=121
+loopInfot, t=5, p=16
+vertexArray - rotating points, cos(phi)=0.587785, sin(phi)=-0.809017
+vertexArray - creating vertices, v.x=-2.293893, v.y=-0.404508, v.z=0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=2.000000, v.texCoord0y=0.850000
+indexArray - creating triangles, A=122, B=143, C=144, C=144, D=123, A=122
+loopInfot, t=5, p=17
+vertexArray - rotating points, cos(phi)=0.809017, sin(phi)=-0.587785
+vertexArray - creating vertices, v.x=-2.404509, v.y=-0.293893, v.z=0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=2.000000, v.texCoord0y=0.900000
+indexArray - creating triangles, A=123, B=144, C=145, C=145, D=124, A=123
+loopInfot, t=5, p=18
+vertexArray - rotating points, cos(phi)=0.951057, sin(phi)=-0.309017
+vertexArray - creating vertices, v.x=-2.475528, v.y=-0.154508, v.z=0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=2.000000, v.texCoord0y=0.950000
+indexArray - creating triangles, A=124, B=145, C=146, C=146, D=125, A=124
+loopInfot, t=5, p=19
+vertexArray - rotating points, cos(phi)=1.000000, sin(phi)=0.000000
+vertexArray - creating vertices, v.x=-2.500000, v.y=0.000000, v.z=0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=2.000000, v.texCoord0y=1.000000
+loopInfot, t=5, p=20
+CFrame Rotation, thetaDegrees=216.000000
+vertexArray - rotating points, cos(phi)=1.000000, sin(phi)=0.000000
+vertexArray - creating vertices, v.x=-2.022542, v.y=0.000000, v.z=1.469463
+texCoord0 - creating texture coordintes, v.texCoord0x=2.400000, v.texCoord0y=0.000000
+indexArray - creating triangles, A=126, B=147, C=148, C=148, D=127, A=126
+loopInfot, t=6, p=0
+vertexArray - rotating points, cos(phi)=0.951057, sin(phi)=0.309017
+vertexArray - creating vertices, v.x=-2.002744, v.y=0.154509, v.z=1.455079
+texCoord0 - creating texture coordintes, v.texCoord0x=2.400000, v.texCoord0y=0.050000
+indexArray - creating triangles, A=127, B=148, C=149, C=149, D=128, A=127
+loopInfot, t=6, p=1
+vertexArray - rotating points, cos(phi)=0.809017, sin(phi)=0.587785
+vertexArray - creating vertices, v.x=-1.945288, v.y=0.293893, v.z=1.413335
+texCoord0 - creating texture coordintes, v.texCoord0x=2.400000, v.texCoord0y=0.100000
+indexArray - creating triangles, A=128, B=149, C=150, C=150, D=129, A=128
+loopInfot, t=6, p=2
+vertexArray - rotating points, cos(phi)=0.587785, sin(phi)=0.809017
+vertexArray - creating vertices, v.x=-1.855798, v.y=0.404509, v.z=1.348317
+texCoord0 - creating texture coordintes, v.texCoord0x=2.400000, v.texCoord0y=0.150000
+indexArray - creating triangles, A=129, B=150, C=151, C=151, D=130, A=129
+loopInfot, t=6, p=3
+vertexArray - rotating points, cos(phi)=0.309017, sin(phi)=0.951057
+vertexArray - creating vertices, v.x=-1.743034, v.y=0.475528, v.z=1.266389
+texCoord0 - creating texture coordintes, v.texCoord0x=2.400000, v.texCoord0y=0.200000
+indexArray - creating triangles, A=130, B=151, C=152, C=152, D=131, A=130
+loopInfot, t=6, p=4
+vertexArray - rotating points, cos(phi)=-0.000000, sin(phi)=1.000000
+vertexArray - creating vertices, v.x=-1.618034, v.y=0.500000, v.z=1.175571
+texCoord0 - creating texture coordintes, v.texCoord0x=2.400000, v.texCoord0y=0.250000
+indexArray - creating triangles, A=131, B=152, C=153, C=153, D=132, A=131
+loopInfot, t=6, p=5
+vertexArray - rotating points, cos(phi)=-0.309017, sin(phi)=0.951056
+vertexArray - creating vertices, v.x=-1.493034, v.y=0.475528, v.z=1.084753
+texCoord0 - creating texture coordintes, v.texCoord0x=2.400000, v.texCoord0y=0.300000
+indexArray - creating triangles, A=132, B=153, C=154, C=154, D=133, A=132
+loopInfot, t=6, p=6
+vertexArray - rotating points, cos(phi)=-0.587785, sin(phi)=0.809017
+vertexArray - creating vertices, v.x=-1.380270, v.y=0.404508, v.z=1.002825
+texCoord0 - creating texture coordintes, v.texCoord0x=2.400000, v.texCoord0y=0.350000
+indexArray - creating triangles, A=133, B=154, C=155, C=155, D=134, A=133
+loopInfot, t=6, p=7
+vertexArray - rotating points, cos(phi)=-0.809017, sin(phi)=0.587785
+vertexArray - creating vertices, v.x=-1.290780, v.y=0.293893, v.z=0.937807
+texCoord0 - creating texture coordintes, v.texCoord0x=2.400000, v.texCoord0y=0.400000
+indexArray - creating triangles, A=134, B=155, C=156, C=156, D=135, A=134
+loopInfot, t=6, p=8
+vertexArray - rotating points, cos(phi)=-0.951056, sin(phi)=0.309017
+vertexArray - creating vertices, v.x=-1.233323, v.y=0.154509, v.z=0.896062
+texCoord0 - creating texture coordintes, v.texCoord0x=2.400000, v.texCoord0y=0.450000
+indexArray - creating triangles, A=135, B=156, C=157, C=157, D=136, A=135
+loopInfot, t=6, p=9
+vertexArray - rotating points, cos(phi)=-1.000000, sin(phi)=-0.000000
+vertexArray - creating vertices, v.x=-1.213525, v.y=-0.000000, v.z=0.881678
+texCoord0 - creating texture coordintes, v.texCoord0x=2.400000, v.texCoord0y=0.500000
+indexArray - creating triangles, A=136, B=157, C=158, C=158, D=137, A=136
+loopInfot, t=6, p=10
+vertexArray - rotating points, cos(phi)=-0.951056, sin(phi)=-0.309017
+vertexArray - creating vertices, v.x=-1.233324, v.y=-0.154509, v.z=0.896062
+texCoord0 - creating texture coordintes, v.texCoord0x=2.400000, v.texCoord0y=0.550000
+indexArray - creating triangles, A=137, B=158, C=159, C=159, D=138, A=137
+loopInfot, t=6, p=11
+vertexArray - rotating points, cos(phi)=-0.809017, sin(phi)=-0.587785
+vertexArray - creating vertices, v.x=-1.290780, v.y=-0.293893, v.z=0.937807
+texCoord0 - creating texture coordintes, v.texCoord0x=2.400000, v.texCoord0y=0.600000
+indexArray - creating triangles, A=138, B=159, C=160, C=160, D=139, A=138
+loopInfot, t=6, p=12
+vertexArray - rotating points, cos(phi)=-0.587785, sin(phi)=-0.809017
+vertexArray - creating vertices, v.x=-1.380270, v.y=-0.404509, v.z=1.002825
+texCoord0 - creating texture coordintes, v.texCoord0x=2.400000, v.texCoord0y=0.650000
+indexArray - creating triangles, A=139, B=160, C=161, C=161, D=140, A=139
+loopInfot, t=6, p=13
+vertexArray - rotating points, cos(phi)=-0.309017, sin(phi)=-0.951057
+vertexArray - creating vertices, v.x=-1.493034, v.y=-0.475528, v.z=1.084753
+texCoord0 - creating texture coordintes, v.texCoord0x=2.400000, v.texCoord0y=0.700000
+indexArray - creating triangles, A=140, B=161, C=162, C=162, D=141, A=140
+loopInfot, t=6, p=14
+vertexArray - rotating points, cos(phi)=0.000000, sin(phi)=-1.000000
+vertexArray - creating vertices, v.x=-1.618034, v.y=-0.500000, v.z=1.175571
+texCoord0 - creating texture coordintes, v.texCoord0x=2.400000, v.texCoord0y=0.750000
+indexArray - creating triangles, A=141, B=162, C=163, C=163, D=142, A=141
+loopInfot, t=6, p=15
+vertexArray - rotating points, cos(phi)=0.309017, sin(phi)=-0.951056
+vertexArray - creating vertices, v.x=-1.743034, v.y=-0.475528, v.z=1.266389
+texCoord0 - creating texture coordintes, v.texCoord0x=2.400000, v.texCoord0y=0.800000
+indexArray - creating triangles, A=142, B=163, C=164, C=164, D=143, A=142
+loopInfot, t=6, p=16
+vertexArray - rotating points, cos(phi)=0.587785, sin(phi)=-0.809017
+vertexArray - creating vertices, v.x=-1.855798, v.y=-0.404508, v.z=1.348317
+texCoord0 - creating texture coordintes, v.texCoord0x=2.400000, v.texCoord0y=0.850000
+indexArray - creating triangles, A=143, B=164, C=165, C=165, D=144, A=143
+loopInfot, t=6, p=17
+vertexArray - rotating points, cos(phi)=0.809017, sin(phi)=-0.587785
+vertexArray - creating vertices, v.x=-1.945288, v.y=-0.293893, v.z=1.413335
+texCoord0 - creating texture coordintes, v.texCoord0x=2.400000, v.texCoord0y=0.900000
+indexArray - creating triangles, A=144, B=165, C=166, C=166, D=145, A=144
+loopInfot, t=6, p=18
+vertexArray - rotating points, cos(phi)=0.951057, sin(phi)=-0.309017
+vertexArray - creating vertices, v.x=-2.002744, v.y=-0.154508, v.z=1.455079
+texCoord0 - creating texture coordintes, v.texCoord0x=2.400000, v.texCoord0y=0.950000
+indexArray - creating triangles, A=145, B=166, C=167, C=167, D=146, A=145
+loopInfot, t=6, p=19
+vertexArray - rotating points, cos(phi)=1.000000, sin(phi)=0.000000
+vertexArray - creating vertices, v.x=-2.022542, v.y=0.000000, v.z=1.469463
+texCoord0 - creating texture coordintes, v.texCoord0x=2.400000, v.texCoord0y=1.000000
+loopInfot, t=6, p=20
+CFrame Rotation, thetaDegrees=252.000000
+vertexArray - rotating points, cos(phi)=1.000000, sin(phi)=0.000000
+vertexArray - creating vertices, v.x=-0.772542, v.y=0.000000, v.z=2.377642
+texCoord0 - creating texture coordintes, v.texCoord0x=2.800000, v.texCoord0y=0.000000
+indexArray - creating triangles, A=147, B=168, C=169, C=169, D=148, A=147
+loopInfot, t=7, p=0
+vertexArray - rotating points, cos(phi)=0.951057, sin(phi)=0.309017
+vertexArray - creating vertices, v.x=-0.764979, v.y=0.154509, v.z=2.354367
+texCoord0 - creating texture coordintes, v.texCoord0x=2.800000, v.texCoord0y=0.050000
+indexArray - creating triangles, A=148, B=169, C=170, C=170, D=149, A=148
+loopInfot, t=7, p=1
+vertexArray - rotating points, cos(phi)=0.809017, sin(phi)=0.587785
+vertexArray - creating vertices, v.x=-0.743033, v.y=0.293893, v.z=2.286824
+texCoord0 - creating texture coordintes, v.texCoord0x=2.800000, v.texCoord0y=0.100000
+indexArray - creating triangles, A=149, B=170, C=171, C=171, D=150, A=149
+loopInfot, t=7, p=2
+vertexArray - rotating points, cos(phi)=0.587785, sin(phi)=0.809017
+vertexArray - creating vertices, v.x=-0.708851, v.y=0.404509, v.z=2.181622
+texCoord0 - creating texture coordintes, v.texCoord0x=2.800000, v.texCoord0y=0.150000
+indexArray - creating triangles, A=150, B=171, C=172, C=172, D=151, A=150
+loopInfot, t=7, p=3
+vertexArray - rotating points, cos(phi)=0.309017, sin(phi)=0.951057
+vertexArray - creating vertices, v.x=-0.665779, v.y=0.475528, v.z=2.049060
+texCoord0 - creating texture coordintes, v.texCoord0x=2.800000, v.texCoord0y=0.200000
+indexArray - creating triangles, A=151, B=172, C=173, C=173, D=152, A=151
+loopInfot, t=7, p=4
+vertexArray - rotating points, cos(phi)=-0.000000, sin(phi)=1.000000
+vertexArray - creating vertices, v.x=-0.618033, v.y=0.500000, v.z=1.902113
+texCoord0 - creating texture coordintes, v.texCoord0x=2.800000, v.texCoord0y=0.250000
+indexArray - creating triangles, A=152, B=173, C=174, C=174, D=153, A=152
+loopInfot, t=7, p=5
+vertexArray - rotating points, cos(phi)=-0.309017, sin(phi)=0.951056
+vertexArray - creating vertices, v.x=-0.570288, v.y=0.475528, v.z=1.755167
+texCoord0 - creating texture coordintes, v.texCoord0x=2.800000, v.texCoord0y=0.300000
+indexArray - creating triangles, A=153, B=174, C=175, C=175, D=154, A=153
+loopInfot, t=7, p=6
+vertexArray - rotating points, cos(phi)=-0.587785, sin(phi)=0.809017
+vertexArray - creating vertices, v.x=-0.527216, v.y=0.404508, v.z=1.622605
+texCoord0 - creating texture coordintes, v.texCoord0x=2.800000, v.texCoord0y=0.350000
+indexArray - creating triangles, A=154, B=175, C=176, C=176, D=155, A=154
+loopInfot, t=7, p=7
+vertexArray - rotating points, cos(phi)=-0.809017, sin(phi)=0.587785
+vertexArray - creating vertices, v.x=-0.493033, v.y=0.293893, v.z=1.517403
+texCoord0 - creating texture coordintes, v.texCoord0x=2.800000, v.texCoord0y=0.400000
+indexArray - creating triangles, A=155, B=176, C=177, C=177, D=156, A=155
+loopInfot, t=7, p=8
+vertexArray - rotating points, cos(phi)=-0.951056, sin(phi)=0.309017
+vertexArray - creating vertices, v.x=-0.471087, v.y=0.154509, v.z=1.449859
+texCoord0 - creating texture coordintes, v.texCoord0x=2.800000, v.texCoord0y=0.450000
+indexArray - creating triangles, A=156, B=177, C=178, C=178, D=157, A=156
+loopInfot, t=7, p=9
+vertexArray - rotating points, cos(phi)=-1.000000, sin(phi)=-0.000000
+vertexArray - creating vertices, v.x=-0.463525, v.y=-0.000000, v.z=1.426585
+texCoord0 - creating texture coordintes, v.texCoord0x=2.800000, v.texCoord0y=0.500000
+indexArray - creating triangles, A=157, B=178, C=179, C=179, D=158, A=157
+loopInfot, t=7, p=10
+vertexArray - rotating points, cos(phi)=-0.951056, sin(phi)=-0.309017
+vertexArray - creating vertices, v.x=-0.471087, v.y=-0.154509, v.z=1.449859
+texCoord0 - creating texture coordintes, v.texCoord0x=2.800000, v.texCoord0y=0.550000
+indexArray - creating triangles, A=158, B=179, C=180, C=180, D=159, A=158
+loopInfot, t=7, p=11
+vertexArray - rotating points, cos(phi)=-0.809017, sin(phi)=-0.587785
+vertexArray - creating vertices, v.x=-0.493033, v.y=-0.293893, v.z=1.517403
+texCoord0 - creating texture coordintes, v.texCoord0x=2.800000, v.texCoord0y=0.600000
+indexArray - creating triangles, A=159, B=180, C=181, C=181, D=160, A=159
+loopInfot, t=7, p=12
+vertexArray - rotating points, cos(phi)=-0.587785, sin(phi)=-0.809017
+vertexArray - creating vertices, v.x=-0.527216, v.y=-0.404509, v.z=1.622605
+texCoord0 - creating texture coordintes, v.texCoord0x=2.800000, v.texCoord0y=0.650000
+indexArray - creating triangles, A=160, B=181, C=182, C=182, D=161, A=160
+loopInfot, t=7, p=13
+vertexArray - rotating points, cos(phi)=-0.309017, sin(phi)=-0.951057
+vertexArray - creating vertices, v.x=-0.570288, v.y=-0.475528, v.z=1.755167
+texCoord0 - creating texture coordintes, v.texCoord0x=2.800000, v.texCoord0y=0.700000
+indexArray - creating triangles, A=161, B=182, C=183, C=183, D=162, A=161
+loopInfot, t=7, p=14
+vertexArray - rotating points, cos(phi)=0.000000, sin(phi)=-1.000000
+vertexArray - creating vertices, v.x=-0.618033, v.y=-0.500000, v.z=1.902113
+texCoord0 - creating texture coordintes, v.texCoord0x=2.800000, v.texCoord0y=0.750000
+indexArray - creating triangles, A=162, B=183, C=184, C=184, D=163, A=162
+loopInfot, t=7, p=15
+vertexArray - rotating points, cos(phi)=0.309017, sin(phi)=-0.951056
+vertexArray - creating vertices, v.x=-0.665779, v.y=-0.475528, v.z=2.049060
+texCoord0 - creating texture coordintes, v.texCoord0x=2.800000, v.texCoord0y=0.800000
+indexArray - creating triangles, A=163, B=184, C=185, C=185, D=164, A=163
+loopInfot, t=7, p=16
+vertexArray - rotating points, cos(phi)=0.587785, sin(phi)=-0.809017
+vertexArray - creating vertices, v.x=-0.708851, v.y=-0.404508, v.z=2.181622
+texCoord0 - creating texture coordintes, v.texCoord0x=2.800000, v.texCoord0y=0.850000
+indexArray - creating triangles, A=164, B=185, C=186, C=186, D=165, A=164
+loopInfot, t=7, p=17
+vertexArray - rotating points, cos(phi)=0.809017, sin(phi)=-0.587785
+vertexArray - creating vertices, v.x=-0.743033, v.y=-0.293893, v.z=2.286824
+texCoord0 - creating texture coordintes, v.texCoord0x=2.800000, v.texCoord0y=0.900000
+indexArray - creating triangles, A=165, B=186, C=187, C=187, D=166, A=165
+loopInfot, t=7, p=18
+vertexArray - rotating points, cos(phi)=0.951057, sin(phi)=-0.309017
+vertexArray - creating vertices, v.x=-0.764979, v.y=-0.154508, v.z=2.354367
+texCoord0 - creating texture coordintes, v.texCoord0x=2.800000, v.texCoord0y=0.950000
+indexArray - creating triangles, A=166, B=187, C=188, C=188, D=167, A=166
+loopInfot, t=7, p=19
+vertexArray - rotating points, cos(phi)=1.000000, sin(phi)=0.000000
+vertexArray - creating vertices, v.x=-0.772542, v.y=0.000000, v.z=2.377642
+texCoord0 - creating texture coordintes, v.texCoord0x=2.800000, v.texCoord0y=1.000000
+loopInfot, t=7, p=20
+CFrame Rotation, thetaDegrees=288.000000
+vertexArray - rotating points, cos(phi)=1.000000, sin(phi)=0.000000
+vertexArray - creating vertices, v.x=0.772543, v.y=0.000000, v.z=2.377641
+texCoord0 - creating texture coordintes, v.texCoord0x=3.200000, v.texCoord0y=0.000000
+indexArray - creating triangles, A=168, B=189, C=190, C=190, D=169, A=168
+loopInfot, t=8, p=0
+vertexArray - rotating points, cos(phi)=0.951057, sin(phi)=0.309017
+vertexArray - creating vertices, v.x=0.764981, v.y=0.154509, v.z=2.354367
+texCoord0 - creating texture coordintes, v.texCoord0x=3.200000, v.texCoord0y=0.050000
+indexArray - creating triangles, A=169, B=190, C=191, C=191, D=170, A=169
+loopInfot, t=8, p=1
+vertexArray - rotating points, cos(phi)=0.809017, sin(phi)=0.587785
+vertexArray - creating vertices, v.x=0.743034, v.y=0.293893, v.z=2.286823
+texCoord0 - creating texture coordintes, v.texCoord0x=3.200000, v.texCoord0y=0.100000
+indexArray - creating triangles, A=170, B=191, C=192, C=192, D=171, A=170
+loopInfot, t=8, p=2
+vertexArray - rotating points, cos(phi)=0.587785, sin(phi)=0.809017
+vertexArray - creating vertices, v.x=0.708852, v.y=0.404509, v.z=2.181622
+texCoord0 - creating texture coordintes, v.texCoord0x=3.200000, v.texCoord0y=0.150000
+indexArray - creating triangles, A=171, B=192, C=193, C=193, D=172, A=171
+loopInfot, t=8, p=3
+vertexArray - rotating points, cos(phi)=0.309017, sin(phi)=0.951057
+vertexArray - creating vertices, v.x=0.665780, v.y=0.475528, v.z=2.049059
+texCoord0 - creating texture coordintes, v.texCoord0x=3.200000, v.texCoord0y=0.200000
+indexArray - creating triangles, A=172, B=193, C=194, C=194, D=173, A=172
+loopInfot, t=8, p=4
+vertexArray - rotating points, cos(phi)=-0.000000, sin(phi)=1.000000
+vertexArray - creating vertices, v.x=0.618034, v.y=0.500000, v.z=1.902113
+texCoord0 - creating texture coordintes, v.texCoord0x=3.200000, v.texCoord0y=0.250000
+indexArray - creating triangles, A=173, B=194, C=195, C=195, D=174, A=173
+loopInfot, t=8, p=5
+vertexArray - rotating points, cos(phi)=-0.309017, sin(phi)=0.951056
+vertexArray - creating vertices, v.x=0.570288, v.y=0.475528, v.z=1.755167
+texCoord0 - creating texture coordintes, v.texCoord0x=3.200000, v.texCoord0y=0.300000
+indexArray - creating triangles, A=174, B=195, C=196, C=196, D=175, A=174
+loopInfot, t=8, p=6
+vertexArray - rotating points, cos(phi)=-0.587785, sin(phi)=0.809017
+vertexArray - creating vertices, v.x=0.527216, v.y=0.404508, v.z=1.622604
+texCoord0 - creating texture coordintes, v.texCoord0x=3.200000, v.texCoord0y=0.350000
+indexArray - creating triangles, A=175, B=196, C=197, C=197, D=176, A=175
+loopInfot, t=8, p=7
+vertexArray - rotating points, cos(phi)=-0.809017, sin(phi)=0.587785
+vertexArray - creating vertices, v.x=0.493034, v.y=0.293893, v.z=1.517403
+texCoord0 - creating texture coordintes, v.texCoord0x=3.200000, v.texCoord0y=0.400000
+indexArray - creating triangles, A=176, B=197, C=198, C=198, D=177, A=176
+loopInfot, t=8, p=8
+vertexArray - rotating points, cos(phi)=-0.951056, sin(phi)=0.309017
+vertexArray - creating vertices, v.x=0.471088, v.y=0.154509, v.z=1.449859
+texCoord0 - creating texture coordintes, v.texCoord0x=3.200000, v.texCoord0y=0.450000
+indexArray - creating triangles, A=177, B=198, C=199, C=199, D=178, A=177
+loopInfot, t=8, p=9
+vertexArray - rotating points, cos(phi)=-1.000000, sin(phi)=-0.000000
+vertexArray - creating vertices, v.x=0.463526, v.y=-0.000000, v.z=1.426585
+texCoord0 - creating texture coordintes, v.texCoord0x=3.200000, v.texCoord0y=0.500000
+indexArray - creating triangles, A=178, B=199, C=200, C=200, D=179, A=178
+loopInfot, t=8, p=10
+vertexArray - rotating points, cos(phi)=-0.951056, sin(phi)=-0.309017
+vertexArray - creating vertices, v.x=0.471088, v.y=-0.154509, v.z=1.449859
+texCoord0 - creating texture coordintes, v.texCoord0x=3.200000, v.texCoord0y=0.550000
+indexArray - creating triangles, A=179, B=200, C=201, C=201, D=180, A=179
+loopInfot, t=8, p=11
+vertexArray - rotating points, cos(phi)=-0.809017, sin(phi)=-0.587785
+vertexArray - creating vertices, v.x=0.493034, v.y=-0.293893, v.z=1.517403
+texCoord0 - creating texture coordintes, v.texCoord0x=3.200000, v.texCoord0y=0.600000
+indexArray - creating triangles, A=180, B=201, C=202, C=202, D=181, A=180
+loopInfot, t=8, p=12
+vertexArray - rotating points, cos(phi)=-0.587785, sin(phi)=-0.809017
+vertexArray - creating vertices, v.x=0.527216, v.y=-0.404509, v.z=1.622605
+texCoord0 - creating texture coordintes, v.texCoord0x=3.200000, v.texCoord0y=0.650000
+indexArray - creating triangles, A=181, B=202, C=203, C=203, D=182, A=181
+loopInfot, t=8, p=13
+vertexArray - rotating points, cos(phi)=-0.309017, sin(phi)=-0.951057
+vertexArray - creating vertices, v.x=0.570289, v.y=-0.475528, v.z=1.755167
+texCoord0 - creating texture coordintes, v.texCoord0x=3.200000, v.texCoord0y=0.700000
+indexArray - creating triangles, A=182, B=203, C=204, C=204, D=183, A=182
+loopInfot, t=8, p=14
+vertexArray - rotating points, cos(phi)=0.000000, sin(phi)=-1.000000
+vertexArray - creating vertices, v.x=0.618034, v.y=-0.500000, v.z=1.902113
+texCoord0 - creating texture coordintes, v.texCoord0x=3.200000, v.texCoord0y=0.750000
+indexArray - creating triangles, A=183, B=204, C=205, C=205, D=184, A=183
+loopInfot, t=8, p=15
+vertexArray - rotating points, cos(phi)=0.309017, sin(phi)=-0.951056
+vertexArray - creating vertices, v.x=0.665780, v.y=-0.475528, v.z=2.049059
+texCoord0 - creating texture coordintes, v.texCoord0x=3.200000, v.texCoord0y=0.800000
+indexArray - creating triangles, A=184, B=205, C=206, C=206, D=185, A=184
+loopInfot, t=8, p=16
+vertexArray - rotating points, cos(phi)=0.587785, sin(phi)=-0.809017
+vertexArray - creating vertices, v.x=0.708852, v.y=-0.404508, v.z=2.181622
+texCoord0 - creating texture coordintes, v.texCoord0x=3.200000, v.texCoord0y=0.850000
+indexArray - creating triangles, A=185, B=206, C=207, C=207, D=186, A=185
+loopInfot, t=8, p=17
+vertexArray - rotating points, cos(phi)=0.809017, sin(phi)=-0.587785
+vertexArray - creating vertices, v.x=0.743034, v.y=-0.293893, v.z=2.286823
+texCoord0 - creating texture coordintes, v.texCoord0x=3.200000, v.texCoord0y=0.900000
+indexArray - creating triangles, A=186, B=207, C=208, C=208, D=187, A=186
+loopInfot, t=8, p=18
+vertexArray - rotating points, cos(phi)=0.951057, sin(phi)=-0.309017
+vertexArray - creating vertices, v.x=0.764981, v.y=-0.154508, v.z=2.354367
+texCoord0 - creating texture coordintes, v.texCoord0x=3.200000, v.texCoord0y=0.950000
+indexArray - creating triangles, A=187, B=208, C=209, C=209, D=188, A=187
+loopInfot, t=8, p=19
+vertexArray - rotating points, cos(phi)=1.000000, sin(phi)=0.000000
+vertexArray - creating vertices, v.x=0.772543, v.y=0.000000, v.z=2.377641
+texCoord0 - creating texture coordintes, v.texCoord0x=3.200000, v.texCoord0y=1.000000
+loopInfot, t=8, p=20
+CFrame Rotation, thetaDegrees=324.000000
+vertexArray - rotating points, cos(phi)=1.000000, sin(phi)=0.000000
+vertexArray - creating vertices, v.x=2.022542, v.y=0.000000, v.z=1.469463
+texCoord0 - creating texture coordintes, v.texCoord0x=3.600000, v.texCoord0y=0.000000
+indexArray - creating triangles, A=189, B=210, C=211, C=211, D=190, A=189
+loopInfot, t=9, p=0
+vertexArray - rotating points, cos(phi)=0.951057, sin(phi)=0.309017
+vertexArray - creating vertices, v.x=2.002744, v.y=0.154509, v.z=1.455079
+texCoord0 - creating texture coordintes, v.texCoord0x=3.600000, v.texCoord0y=0.050000
+indexArray - creating triangles, A=190, B=211, C=212, C=212, D=191, A=190
+loopInfot, t=9, p=1
+vertexArray - rotating points, cos(phi)=0.809017, sin(phi)=0.587785
+vertexArray - creating vertices, v.x=1.945288, v.y=0.293893, v.z=1.413335
+texCoord0 - creating texture coordintes, v.texCoord0x=3.600000, v.texCoord0y=0.100000
+indexArray - creating triangles, A=191, B=212, C=213, C=213, D=192, A=191
+loopInfot, t=9, p=2
+vertexArray - rotating points, cos(phi)=0.587785, sin(phi)=0.809017
+vertexArray - creating vertices, v.x=1.855798, v.y=0.404509, v.z=1.348316
+texCoord0 - creating texture coordintes, v.texCoord0x=3.600000, v.texCoord0y=0.150000
+indexArray - creating triangles, A=192, B=213, C=214, C=214, D=193, A=192
+loopInfot, t=9, p=3
+vertexArray - rotating points, cos(phi)=0.309017, sin(phi)=0.951057
+vertexArray - creating vertices, v.x=1.743034, v.y=0.475528, v.z=1.266388
+texCoord0 - creating texture coordintes, v.texCoord0x=3.600000, v.texCoord0y=0.200000
+indexArray - creating triangles, A=193, B=214, C=215, C=215, D=194, A=193
+loopInfot, t=9, p=4
+vertexArray - rotating points, cos(phi)=-0.000000, sin(phi)=1.000000
+vertexArray - creating vertices, v.x=1.618034, v.y=0.500000, v.z=1.175571
+texCoord0 - creating texture coordintes, v.texCoord0x=3.600000, v.texCoord0y=0.250000
+indexArray - creating triangles, A=194, B=215, C=216, C=216, D=195, A=194
+loopInfot, t=9, p=5
+vertexArray - rotating points, cos(phi)=-0.309017, sin(phi)=0.951056
+vertexArray - creating vertices, v.x=1.493034, v.y=0.475528, v.z=1.084753
+texCoord0 - creating texture coordintes, v.texCoord0x=3.600000, v.texCoord0y=0.300000
+indexArray - creating triangles, A=195, B=216, C=217, C=217, D=196, A=195
+loopInfot, t=9, p=6
+vertexArray - rotating points, cos(phi)=-0.587785, sin(phi)=0.809017
+vertexArray - creating vertices, v.x=1.380270, v.y=0.404508, v.z=1.002825
+texCoord0 - creating texture coordintes, v.texCoord0x=3.600000, v.texCoord0y=0.350000
+indexArray - creating triangles, A=196, B=217, C=218, C=218, D=197, A=196
+loopInfot, t=9, p=7
+vertexArray - rotating points, cos(phi)=-0.809017, sin(phi)=0.587785
+vertexArray - creating vertices, v.x=1.290780, v.y=0.293893, v.z=0.937806
+texCoord0 - creating texture coordintes, v.texCoord0x=3.600000, v.texCoord0y=0.400000
+indexArray - creating triangles, A=197, B=218, C=219, C=219, D=198, A=197
+loopInfot, t=9, p=8
+vertexArray - rotating points, cos(phi)=-0.951056, sin(phi)=0.309017
+vertexArray - creating vertices, v.x=1.233323, v.y=0.154509, v.z=0.896062
+texCoord0 - creating texture coordintes, v.texCoord0x=3.600000, v.texCoord0y=0.450000
+indexArray - creating triangles, A=198, B=219, C=220, C=220, D=199, A=198
+loopInfot, t=9, p=9
+vertexArray - rotating points, cos(phi)=-1.000000, sin(phi)=-0.000000
+vertexArray - creating vertices, v.x=1.213525, v.y=-0.000000, v.z=0.881678
+texCoord0 - creating texture coordintes, v.texCoord0x=3.600000, v.texCoord0y=0.500000
+indexArray - creating triangles, A=199, B=220, C=221, C=221, D=200, A=199
+loopInfot, t=9, p=10
+vertexArray - rotating points, cos(phi)=-0.951056, sin(phi)=-0.309017
+vertexArray - creating vertices, v.x=1.233324, v.y=-0.154509, v.z=0.896062
+texCoord0 - creating texture coordintes, v.texCoord0x=3.600000, v.texCoord0y=0.550000
+indexArray - creating triangles, A=200, B=221, C=222, C=222, D=201, A=200
+loopInfot, t=9, p=11
+vertexArray - rotating points, cos(phi)=-0.809017, sin(phi)=-0.587785
+vertexArray - creating vertices, v.x=1.290780, v.y=-0.293893, v.z=0.937806
+texCoord0 - creating texture coordintes, v.texCoord0x=3.600000, v.texCoord0y=0.600000
+indexArray - creating triangles, A=201, B=222, C=223, C=223, D=202, A=201
+loopInfot, t=9, p=12
+vertexArray - rotating points, cos(phi)=-0.587785, sin(phi)=-0.809017
+vertexArray - creating vertices, v.x=1.380270, v.y=-0.404509, v.z=1.002825
+texCoord0 - creating texture coordintes, v.texCoord0x=3.600000, v.texCoord0y=0.650000
+indexArray - creating triangles, A=202, B=223, C=224, C=224, D=203, A=202
+loopInfot, t=9, p=13
+vertexArray - rotating points, cos(phi)=-0.309017, sin(phi)=-0.951057
+vertexArray - creating vertices, v.x=1.493034, v.y=-0.475528, v.z=1.084753
+texCoord0 - creating texture coordintes, v.texCoord0x=3.600000, v.texCoord0y=0.700000
+indexArray - creating triangles, A=203, B=224, C=225, C=225, D=204, A=203
+loopInfot, t=9, p=14
+vertexArray - rotating points, cos(phi)=0.000000, sin(phi)=-1.000000
+vertexArray - creating vertices, v.x=1.618034, v.y=-0.500000, v.z=1.175571
+texCoord0 - creating texture coordintes, v.texCoord0x=3.600000, v.texCoord0y=0.750000
+indexArray - creating triangles, A=204, B=225, C=226, C=226, D=205, A=204
+loopInfot, t=9, p=15
+vertexArray - rotating points, cos(phi)=0.309017, sin(phi)=-0.951056
+vertexArray - creating vertices, v.x=1.743034, v.y=-0.475528, v.z=1.266388
+texCoord0 - creating texture coordintes, v.texCoord0x=3.600000, v.texCoord0y=0.800000
+indexArray - creating triangles, A=205, B=226, C=227, C=227, D=206, A=205
+loopInfot, t=9, p=16
+vertexArray - rotating points, cos(phi)=0.587785, sin(phi)=-0.809017
+vertexArray - creating vertices, v.x=1.855798, v.y=-0.404508, v.z=1.348316
+texCoord0 - creating texture coordintes, v.texCoord0x=3.600000, v.texCoord0y=0.850000
+indexArray - creating triangles, A=206, B=227, C=228, C=228, D=207, A=206
+loopInfot, t=9, p=17
+vertexArray - rotating points, cos(phi)=0.809017, sin(phi)=-0.587785
+vertexArray - creating vertices, v.x=1.945288, v.y=-0.293893, v.z=1.413335
+texCoord0 - creating texture coordintes, v.texCoord0x=3.600000, v.texCoord0y=0.900000
+indexArray - creating triangles, A=207, B=228, C=229, C=229, D=208, A=207
+loopInfot, t=9, p=18
+vertexArray - rotating points, cos(phi)=0.951057, sin(phi)=-0.309017
+vertexArray - creating vertices, v.x=2.002744, v.y=-0.154508, v.z=1.455079
+texCoord0 - creating texture coordintes, v.texCoord0x=3.600000, v.texCoord0y=0.950000
+indexArray - creating triangles, A=208, B=229, C=230, C=230, D=209, A=208
+loopInfot, t=9, p=19
+vertexArray - rotating points, cos(phi)=1.000000, sin(phi)=0.000000
+vertexArray - creating vertices, v.x=2.022542, v.y=0.000000, v.z=1.469463
+texCoord0 - creating texture coordintes, v.texCoord0x=3.600000, v.texCoord0y=1.000000
+loopInfot, t=9, p=20
+CFrame Rotation, thetaDegrees=360.000000
+vertexArray - rotating points, cos(phi)=1.000000, sin(phi)=0.000000
+vertexArray - creating vertices, v.x=2.500000, v.y=0.000000, v.z=-0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=4.000000, v.texCoord0y=0.000000
+loopInfot, t=10, p=0
+vertexArray - rotating points, cos(phi)=0.951057, sin(phi)=0.309017
+vertexArray - creating vertices, v.x=2.475528, v.y=0.154509, v.z=-0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=4.000000, v.texCoord0y=0.050000
+loopInfot, t=10, p=1
+vertexArray - rotating points, cos(phi)=0.809017, sin(phi)=0.587785
+vertexArray - creating vertices, v.x=2.404509, v.y=0.293893, v.z=-0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=4.000000, v.texCoord0y=0.100000
+loopInfot, t=10, p=2
+vertexArray - rotating points, cos(phi)=0.587785, sin(phi)=0.809017
+vertexArray - creating vertices, v.x=2.293893, v.y=0.404509, v.z=-0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=4.000000, v.texCoord0y=0.150000
+loopInfot, t=10, p=3
+vertexArray - rotating points, cos(phi)=0.309017, sin(phi)=0.951057
+vertexArray - creating vertices, v.x=2.154509, v.y=0.475528, v.z=-0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=4.000000, v.texCoord0y=0.200000
+loopInfot, t=10, p=4
+vertexArray - rotating points, cos(phi)=-0.000000, sin(phi)=1.000000
+vertexArray - creating vertices, v.x=2.000000, v.y=0.500000, v.z=-0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=4.000000, v.texCoord0y=0.250000
+loopInfot, t=10, p=5
+vertexArray - rotating points, cos(phi)=-0.309017, sin(phi)=0.951056
+vertexArray - creating vertices, v.x=1.845492, v.y=0.475528, v.z=-0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=4.000000, v.texCoord0y=0.300000
+loopInfot, t=10, p=6
+vertexArray - rotating points, cos(phi)=-0.587785, sin(phi)=0.809017
+vertexArray - creating vertices, v.x=1.706107, v.y=0.404508, v.z=-0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=4.000000, v.texCoord0y=0.350000
+loopInfot, t=10, p=7
+vertexArray - rotating points, cos(phi)=-0.809017, sin(phi)=0.587785
+vertexArray - creating vertices, v.x=1.595491, v.y=0.293893, v.z=-0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=4.000000, v.texCoord0y=0.400000
+loopInfot, t=10, p=8
+vertexArray - rotating points, cos(phi)=-0.951056, sin(phi)=0.309017
+vertexArray - creating vertices, v.x=1.524472, v.y=0.154509, v.z=-0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=4.000000, v.texCoord0y=0.450000
+loopInfot, t=10, p=9
+vertexArray - rotating points, cos(phi)=-1.000000, sin(phi)=-0.000000
+vertexArray - creating vertices, v.x=1.500000, v.y=-0.000000, v.z=-0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=4.000000, v.texCoord0y=0.500000
+loopInfot, t=10, p=10
+vertexArray - rotating points, cos(phi)=-0.951056, sin(phi)=-0.309017
+vertexArray - creating vertices, v.x=1.524472, v.y=-0.154509, v.z=-0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=4.000000, v.texCoord0y=0.550000
+loopInfot, t=10, p=11
+vertexArray - rotating points, cos(phi)=-0.809017, sin(phi)=-0.587785
+vertexArray - creating vertices, v.x=1.595492, v.y=-0.293893, v.z=-0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=4.000000, v.texCoord0y=0.600000
+loopInfot, t=10, p=12
+vertexArray - rotating points, cos(phi)=-0.587785, sin(phi)=-0.809017
+vertexArray - creating vertices, v.x=1.706107, v.y=-0.404509, v.z=-0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=4.000000, v.texCoord0y=0.650000
+loopInfot, t=10, p=13
+vertexArray - rotating points, cos(phi)=-0.309017, sin(phi)=-0.951057
+vertexArray - creating vertices, v.x=1.845492, v.y=-0.475528, v.z=-0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=4.000000, v.texCoord0y=0.700000
+loopInfot, t=10, p=14
+vertexArray - rotating points, cos(phi)=0.000000, sin(phi)=-1.000000
+vertexArray - creating vertices, v.x=2.000000, v.y=-0.500000, v.z=-0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=4.000000, v.texCoord0y=0.750000
+loopInfot, t=10, p=15
+vertexArray - rotating points, cos(phi)=0.309017, sin(phi)=-0.951056
+vertexArray - creating vertices, v.x=2.154509, v.y=-0.475528, v.z=-0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=4.000000, v.texCoord0y=0.800000
+loopInfot, t=10, p=16
+vertexArray - rotating points, cos(phi)=0.587785, sin(phi)=-0.809017
+vertexArray - creating vertices, v.x=2.293893, v.y=-0.404508, v.z=-0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=4.000000, v.texCoord0y=0.850000
+loopInfot, t=10, p=17
+vertexArray - rotating points, cos(phi)=0.809017, sin(phi)=-0.587785
+vertexArray - creating vertices, v.x=2.404509, v.y=-0.293893, v.z=-0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=4.000000, v.texCoord0y=0.900000
+loopInfot, t=10, p=18
+vertexArray - rotating points, cos(phi)=0.951057, sin(phi)=-0.309017
+vertexArray - creating vertices, v.x=2.475528, v.y=-0.154508, v.z=-0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=4.000000, v.texCoord0y=0.950000
+loopInfot, t=10, p=19
+vertexArray - rotating points, cos(phi)=1.000000, sin(phi)=0.000000
+vertexArray - creating vertices, v.x=2.500000, v.y=0.000000, v.z=-0.000000
+texCoord0 - creating texture coordintes, v.texCoord0x=4.000000, v.texCoord0y=1.000000
+loopInfot, t=10, p=20
