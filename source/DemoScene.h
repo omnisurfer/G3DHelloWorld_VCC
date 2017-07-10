@@ -15,6 +15,9 @@ public:
     void spawnAsteroids();
 	void spawnCubes();
 	shared_ptr<Model> createTorusModel();
+	shared_ptr<Model> DemoScene::createCubeModel();
+	shared_ptr<Model> DemoScene::createCubeModel_Parametric();
+	shared_ptr<Model> DemoScene::createCubeModel_Flat();
 };
 
 #endif

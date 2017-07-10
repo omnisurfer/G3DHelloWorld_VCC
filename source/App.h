@@ -41,4 +41,5 @@ public:
     virtual void onCleanup() override;
 
 	void addTorusToScene();
+	void addCubeToScene();
 };

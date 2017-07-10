@@ -112,6 +112,8 @@ void App::onInit() {
 	//m_scene->spawnCubes();
 	addTorusToScene();
 
+	addCubeToScene();
+
 	setActiveCamera(m_scene->typedEntity<Camera>("camera"));
 
 	/*
@@ -331,4 +333,45 @@ void App::addTorusToScene() {
 	}
 
 	torus->setFrame(CFrame::fromXYZYPRDegrees(0.0f, 0.0f, 0.0f, 0.0f, 90.0f));
+}
+
+void App::addCubeToScene() {
+	// Replace any existing torus model. Models don't 
+	// have to be added to the model table to use them 
+	// with a VisibleEntity.
+
+	const shared_ptr<Model>& cubeModel = m_scene->createCubeModel();
+	if (scene()->modelTable().containsKey(cubeModel->name())) {
+		scene()->removeModel(cubeModel->name());
+	}
+	scene()->insert(cubeModel);
+
+	// Replace any existing torus entity that has the wrong type
+	shared_ptr<Entity> cube = scene()->entity("cube");
+	if (notNull(cube) && isNull(dynamic_pointer_cast<VisibleEntity>(cube))) {
+		logPrintf("The scene contained an Entity named 'cube' that was not a VisibleEntity\n");
+		scene()->remove(cube);
+		cube.reset();
+	}
+
+	if (isNull(cube)) {
+		// There is no torus entity in this scene, so make one.
+		//
+		// We could either explicitly instantiate a VisibleEntity or simply
+		// allow the Scene parser to construct one. The second approach
+		// has more consise syntax for this case, since we are using all constant
+		// values in the specification.
+		cube = scene()->createEntity("cube",
+			PARSE_ANY(
+				VisibleEntity{
+			model = "cubeModel";
+		};
+		));
+	}
+	else {
+		// Change the model on the existing torus entity
+		dynamic_pointer_cast<VisibleEntity>(cube)->setModel(cubeModel);
+	}
+
+	cube->setFrame(CFrame::fromXYZYPRDegrees(0.0f, 0.0f, 0.0f, 0.0f, 90.0f));
 }
